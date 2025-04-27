@@ -1,0 +1,11 @@
+create or replace package demo_names is
+   global_variable varchar2(100)    := 'Global Variable';
+   co_constant     constant integer := 100;
+
+   procedure proc1(
+      in_param1  in     varchar2,
+      io_param2  in out varchar2,
+      out_param3 out    integer
+   );
+end demo_names;
+/
