@@ -4,5 +4,6 @@
         "projectKey": "demo-002"
     },
     "sonarlint.disableTelemetry": true,
-    "dblinter.configName": "demo-002"
+    "dblinter.configName": "demo-002",
+    "dblinter.tenantName": "Grisselbav"
 }
