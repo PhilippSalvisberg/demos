@@ -1,6 +1,6 @@
 create or replace package demo_names is
-   global_variable varchar2(100)    := 'Global Variable';
-   co_constant     constant integer := 100;
+   co_short_string_size  constant integer := 100;
+   global_variable varchar2(co_short_string_size char) := 'Global Variable';
 
    procedure proc1(
       in_param1  in     varchar2,

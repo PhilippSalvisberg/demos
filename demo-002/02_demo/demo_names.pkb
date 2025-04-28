@@ -1,5 +1,5 @@
 create or replace package body demo_names is
-   package_global_variable varchar2(100) := 'Package Global Variable';
+   package_global_variable varchar2(co_short_string_size char) := 'Package Global Variable';
 
    -- -----------------------------------------------------------------------------------------------------------------
    -- proc1 (public)
