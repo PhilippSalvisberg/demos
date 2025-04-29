@@ -1,5 +1,4 @@
 -- @hr
--- G-7810: Never use SQL inside PL/SQL to read sequence numbers (or SYSDATE).
 
 set serveroutput on size unlimited
 declare
