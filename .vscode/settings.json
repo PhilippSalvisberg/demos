@@ -1,7 +1,0 @@
-{
-    "sonarlint.connectedMode.project": {
-        "connectionId": "http-192-168-1-57-61011",
-        "projectKey": "demo-002"
-    },
-    "sonarlint.disableTelemetry": true
-}
