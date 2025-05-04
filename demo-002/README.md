@@ -86,3 +86,37 @@
 - Package is valid
 
 ## SQL-based Tests Demo
+
+### 1. Run SQL-based Tests (4')
+
+- open dbLinter panel
+- explain that these are the 15 enabled rules in the current configuration
+- run all tests
+- expand all
+- colapse all
+- expand results for G-1240
+- make the complete message visible by moving the slider to the right
+- select both results, right-click, select `Ignore Test Results...` and enter `FK indexes are for ...`
+- Refresh
+- Re-run G-1240 only (no issues)
+- Re-run all
+- Open [preview.dblinter.app](https://preview.dblinter.app)
+  - sign in
+  - open configuration `demo-002`
+  - open tab `Ignore Test Results`
+  - click on G-1240
+  - select all rows
+  - delete rows
+  - save
+- Go back to VS Code
+- Refresh
+- Re-run G-1240 only (no issues)
+- Re-run all
+- Select both results, right-click, select `Show Migration Script`
+- Run the migration script under `aaa-demo_app`
+- Re-run all
+- Select G-1240 and `Open Rule in Default Browser`
+- Expand `Test SQL query` and explain it
+  - first column is the identifier (used to ignore results)
+  - second column is the message
+  - third column is optional, it contains the migration script
