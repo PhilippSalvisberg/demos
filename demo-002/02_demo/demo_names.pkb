@@ -30,7 +30,7 @@ create or replace package body demo_names is
       -- SQL object types and collection types
       o_dept     dept_ot;
       t_dept     dept_ct;
-      o_uritype  sys.ftpuritype      := sys.ftpuritype('localhost');
+      o_uritype  sys.ftpuritype     := sys.ftpuritype('localhost');
       t_num_list sys.ODCINumberList := sys.ODCINumberList(1, 2, 3);
    begin
       null;
