@@ -12,9 +12,9 @@
   - ignore test resutls: not relevant (no rules with SQL-based tests enabled)
 - Hidel panel with problems and script output
 
-## Demo
+## Demo (24' 30'')
 
-### 1. [d1-4320-nc.sql](d1-4320-nc.sql)
+### 1. [d1-4320-nc.sql](d1-4320-nc.sql) (4' 30'')
 
 - Run with `aaa-sh`
 - Explain that the Oracle Database and dbLinter do not have any problems understanding this code
@@ -62,7 +62,7 @@
 - Like it, keep the rule enabled. Don't like it, then disable the rule
 - Now let's look at important rules, reported probelems are bugs
 
-### 2. [d2-1080-nc.sql](d2-1080-nc.sql)
+### 2. [d2-1080-nc.sql](d2-1080-nc.sql) (1')
 
 - Explain first issues
 - Apply quick fix
@@ -70,7 +70,7 @@
 - Explain G-1080,
 - Change second value to l_var2
 
-### 3. [d2-2150-nc.sql](d2-2150-nc.sql)
+### 3. [d2-2150-nc.sql](d2-2150-nc.sql) (1')
 
 - Run script as `aaa-plscope`
 - No output, that's what we expect
@@ -78,10 +78,11 @@
 - Apply quick fix
 - Rerun script, still no output, but this time the code would report a salesman without comm
 - Explain false negative on line 17
-- Fix it manually be replacing `comm = l_comm` with `(comm = l_comm or l_comm is null`)
+- Fix it manually be replacing `comm = l_comm` with `l_comm is null`
+- Fix new problem G-1030 by applying the quick fix
 - A rule implementation may not be perfect, but is often better than nothing
 
-### 4. [d2-3185-nc.sql](d2-3185-nc.sql)
+### 4. [d2-3185-nc.sql](d2-3185-nc.sql) (2')
 
 - Explain issue by running the query as `aaa-plscope`
   - Are these the top 2 salaries?
@@ -115,7 +116,7 @@
 - run it as `aaa-plscope` and explain solution for >=12.1
 - replace `with ties` with `only` to produce same result
 
-### 4. [d2-4230-nc.sql](d2-4230-nc.sql)
+### 4. [d2-4230-nc.sql](d2-4230-nc.sql) (2' 30'')
 
 - Run query as `aaa-plscope`
 - Explain G-4230 by running the query
@@ -127,7 +128,7 @@
 - Apply quick fix `replace nvl with coalesce`
 - Rereun query and explain behaviour
 
-### 5. [d2-4250-nc.sql](d2-4250-nc.sql)
+### 5. [d2-4250-nc.sql](d2-4250-nc.sql) (1')
 
 - Run query as `aaa-plscope`
 - PRESIDENT has no salary
@@ -135,7 +136,7 @@
 - No quick fix. Fix it manually.
 - Rerun query
 
-### 6. [d2-5080-nc.sql](d2-5080-nc.sql)
+### 6. [d2-5080-nc.sql](d2-5080-nc.sql) (2')
 
 - Run script as `aaa-plscope`
 - Explain that the source of error is not visible, no line referenced
@@ -149,13 +150,13 @@
 - Re-Run code
 - Better log message
 
-### 7. [d2-7810-nc.sql](d2-7810-nc.sql)
+### 7. [d2-7810-nc.sql](d2-7810-nc.sql) (1')
 
 - Explain unnecessity to query dual (we are not on Oracle 10 anymore, right?)
 - Apply quick fix
 - shorter, faster, less resource intensive
 
-### 8. [d2-9010-nc.sql](d2-9010-nc.sql)
+### 8. [d2-9010-nc.sql](d2-9010-nc.sql) (2' 30'')
 
 - explain rule
 - run query
@@ -164,7 +165,7 @@
 - open [d2-9010-sol2.sql](d2-9010-sol2.sql)
 - explain why using a date literal is a good alternative
 
-### 9. [d2-9501-nc.sql](d2-9501-nc.sql)
+### 9. [d2-9501-nc.sql](d2-9501-nc.sql) (2' 30'')
 
 - Install procedure using `aaa-plscope`
 - Explain G-9501
@@ -178,7 +179,7 @@
 - re-run `exec p` examples and explain outcome
 - SQLi is not possible anymore
 
-### 10. [d2-9600-nc.sql](d2-9600-nc.sql)
+### 10. [d2-9600-nc.sql](d2-9600-nc.sql) (3')
 
 - Explain issues
 - Run queries as `aaa-plscope` and explain the explain plan result (no hint report)
@@ -190,7 +191,7 @@
 - Re-run queries and explain hint report (hint is used)
 - No need to run the query to find these types of hint issues
 
-### 11 [d2-multiple-problems-nc.sql](d2-multiple-problems-nc.sql)
+### 11 [d2-multiple-problems-nc.sql](d2-multiple-problems-nc.sql) (1' 30'')
 
 - apply quick fix `Fix all G-4230 problems like 'replace nvl with coalesce.'`
 - undo changes with Command-Z
