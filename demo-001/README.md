@@ -48,7 +48,7 @@
 - navigate to next problem and back
 - close the inline problem mode
 - mouse-over first issue again
-- Call Check again and click on `Quick Fix` (Command-.), explain Shortcut, apply quick fix
+- Click on `Quick Fix` (Command-.), explain Shortcut, apply quick fix
 - Undo change by pressing Command-Z
 - Click on blue bulp to show context menu, apply quick fix
 - Undo change by pressing Command-Z
