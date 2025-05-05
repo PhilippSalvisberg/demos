@@ -27,7 +27,7 @@
   - no indication where the problem occurs
   - no other issures reported in this case
   - Root cause is that the size of a varchar2 can be defined with a [VARCHAR2 Static Expression](https://docs.oracle.com/en/database/oracle/oracle-database/23/lnpls/expressions.html#GUID-5D80A222-E07B-45B5-AB08-83016EF64A45), but the SonarQube parser does no suport that
-- Fix by replacing `co_short_string_size` by `100` on line 3
+- Fix by replacing `co_short_string_size` by `100` on line 4
 - Open `problems` and explain options
   - quick fix "Resolve" (marks it locally is done, without doing anything "Accepted" or "False Positive" - don't do this)
   - quick fix "Show issue" (shows the rule within VS Code)
