@@ -1,7 +1,7 @@
 create or replace package demo_names is
    co_short_string_size  constant integer := 100;
-   g_global_variable     varchar2(co_short_string_size char) := 'Global Variable';
    co_max_string_size    constant integer := 32767;
+   g_global_variable     varchar2(co_short_string_size char) := 'Global Variable';
 
    procedure proc1(
       in_param1  in     varchar2,
