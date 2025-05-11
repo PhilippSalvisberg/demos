@@ -2,7 +2,7 @@
 
 ## Setup
 
-- SonarQube [project demo-002](http://192.168.1.57:61011/dashboard?id=demo-002) is reachable.
+- SonarQube [project demo-002](http://127.0.0.1:61011/dashboard?id=demo-002) is reachable.
 - dbLinter extension is disabled
 - SonarQube for IDE is enabled
 - open [01_setup/as_sys.sql](01_setup/as_sys.sql)
