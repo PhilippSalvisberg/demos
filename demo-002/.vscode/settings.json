@@ -1,4 +1,5 @@
 {
+    "sonarlint.pathToNodeExecutable": "/opt/homebrew/bin/node",
     "sonarlint.connectedMode.project": {
         "connectionId": "http-127-0-0-1-61011",
         "projectKey": "demo-002"
