@@ -26,3 +26,18 @@ exception
    when e_incorrect_fba then
       null; -- may fail, not exists clause not supported for this DDL statement
 end;
+/
+
+drop user if exists cyborg cascade;
+
+create user cyborg
+   identified by cyborg
+   default tablespace users
+   quota 100m on users;
+
+grant db_developer_role to cyborg;
+grant read on sys.v_$session to cyborg;
+grant read on sys.v_$sql_plan_statistics_all to cyborg;
+grant read on sys.v_$sql_plan to cyborg;
+grant read on sys.v_$sql to cyborg;
+
