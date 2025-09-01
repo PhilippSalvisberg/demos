@@ -21,7 +21,7 @@
 - Format the code
 - Explain that this is better than before even if the formatter result is not perfect
 - open `Problems` panel and explain problems
-  - click on `G-4320: Always label your loops`
+  - click on `Missing start label in cursor for loop statement.`
   - Explain G-4320
     - What does that code?
     - No comment
@@ -42,7 +42,7 @@
   - back to Web-GUI and re-enable rule G-4320
   - back to VS Code and reload window
 - open `Problems` panel and explain problems
-  - click on `G-4320: Always label your loops`
+  - click on `Missing start label in cursor for loop statement.`
 - mouse-over first issue
 - click on `View Problem` (Option-F8)
 - navigate to next problem and back
