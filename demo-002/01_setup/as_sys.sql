@@ -77,3 +77,4 @@ create or replace type dept_ot as object (
 drop type if exists dept_ct force;
 
 create or replace type dept_ct as table of dept_ot;
+/
