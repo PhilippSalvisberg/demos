@@ -1,0 +1,13 @@
+{
+    "java.compile.nullAnalysis.mode": "disabled",
+    "dblinter.repoUrl": "https://api.dblinter.app",
+    "dblinter.tenantName": "Demo",
+    "dblinter.userName": "philipp.salvisberg+42@gmail.com",
+    "dblinter.accessToken": "${env:DBLINTER_DEMO_ACCESS_TOKEN}",
+    "dblinter.configName": "Demo",
+    "dblinter.allowInsecureTls": false,
+    "dblinter.connJdbcUrl": "jdbc:oracle:thin:@127.0.0.1:1521/freepdb1",
+    "dblinter.connUserName": "dbl_read",
+    "dblinter.connPassword": "${env:DBLINTER_DEMO_CONN_PASSWORD}",
+    "dblinter.enableRemoteDebugging": true
+}

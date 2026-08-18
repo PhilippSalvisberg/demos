@@ -1,0 +1,859 @@
+[
+  {
+    "configs": [
+      {
+        "conf_check_on_syntax_error": false,
+        "conf_description": "Default configuration",
+        "conf_exclude_file_patterns": "**/.git/**/*.*\r\n**/.vscode/**/*.*\r\n**/.scannerwork/**/*.*\r\n**/.dblinter/*.*\r\n**/check.vscode.md\r\n**/README.md",
+        "conf_include_file_patterns": "**/*.{sql,prc,fnc,pks,pkb,trg,vw,tps,tpb,plb,pls,rcv,spc,typ,aqt,aqp,ctx,dbl,tab,dim,snp,con,collt,seq,syn,grt,sp,spb,sps,pck,sqlnb,apx,md}",
+        "conf_name": "Default",
+        "config_rules": [
+          {
+            "rule_name": "G-3115",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4230",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7250",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1270",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4270",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2230",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-5010",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7430",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-5050",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7420",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9213",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1050",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9040",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9212",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1230",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7810",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1220",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3185",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4220",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2310",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9206",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9211",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9102",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4140",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7230",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1120",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7180",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7110",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1030",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7730",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9202",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9203",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1940",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-5080",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2180",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3145",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3320",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1140",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9104",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4395",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9201",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9106",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7720",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9501",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3192",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4380",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7710",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3330",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3130",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7910",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-6020",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1110",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7160",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7127",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4250",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2340",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7120",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4320",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1240",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9101",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9105",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1070",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3140",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9604",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1920",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2510",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2150",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-5020",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9605",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2610",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2220",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1310",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9112",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7320",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3160",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3190",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3195",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-5030",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9204",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7440",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7450",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7220",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9603",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2140",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4350",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4130",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7740",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3150",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4330",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-8120",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3183",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9208",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2210",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1260",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9109",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4360",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1080",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9103",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4260",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9108",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1210",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1130",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9209",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4110",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9110",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4120",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2170",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9207",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7210",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9111",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7130",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4385",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7515",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9116",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4387",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2330",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2135",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9601",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4390",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-5060",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9115",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7310",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2190",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9107",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9218",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9602",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3220",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9114",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3110",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9219",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7140",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-8110",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9214",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1010",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7170",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9205",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4325",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9210",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4370",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2160",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9215",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4240",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9216",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-8510",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1930",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1040",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2410",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-5040",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9217",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4340",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1280",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4375",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1060",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7520",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9020",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1250",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1020",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3120",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3310",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-6010",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9113",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7125",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7410",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9030",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2145",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3170",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7330",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-8410",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7150",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4210",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4365",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7510",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9600",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3180",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3182",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3210",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "R-3131",
+            "ten_name": "Demo"
+          }
+        ],
+        "conn_name": "dbl_read@localhost",
+        "custom_parameters": [],
+        "ignore_test_results": []
+      },
+      {
+        "conf_check_on_syntax_error": false,
+        "conf_description": "Default configuration",
+        "conf_exclude_file_patterns": "**/.git/**/*.*\r\n**/.vscode/**/*.*\r\n**/.scannerwork/**/*.*\r\n**/.dblinter/*.*\r\n**/check.vscode.md\r\n**/README.md",
+        "conf_include_file_patterns": "**/*.{sql,prc,fnc,pks,pkb,trg,vw,tps,tpb,plb,pls,rcv,spc,typ,aqt,aqp,ctx,dbl,tab,dim,snp,con,collt,seq,syn,grt,sp,spb,sps,pck,sqlnb,apx,md}",
+        "conf_name": "Minimal",
+        "config_rules": [
+          {
+            "rule_name": "G-1310",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1210",
+            "ten_name": "Core"
+          }
+        ],
+        "conn_name": "dbl_read@localhost",
+        "custom_parameters": [],
+        "ignore_test_results": []
+      },
+      {
+        "conf_check_on_syntax_error": false,
+        "conf_description": "For the demos of the talk \"Fighting Bad PL/SQL & SQL with Custom Rules\".",
+        "conf_exclude_file_patterns": "**/.git/**/*.*\n**/.vscode/**/*.*\n**/.scannerwork/**/*.*",
+        "conf_include_file_patterns": "**/*.{sql,prc,fnc,pks,pkb,trg,vw,tps,tpb,plb,pls,rcv,spc,typ,aqt,aqp,ctx,dbl,tab,dim,snp,con,collt,seq,syn,grt,sp,spb,sps,pck,sqlnb,apx,md}",
+        "conf_name": "Demo",
+        "config_rules": [
+          {
+            "rule_name": "R-3131",
+            "ten_name": "Demo"
+          },
+          {
+            "rule_name": "G-3130",
+            "ten_name": "Core"
+          }
+        ],
+        "custom_parameters": [],
+        "ignore_test_results": []
+      }
+    ],
+    "connect_infos": [
+      {
+        "conn_jdbc_url": "jdbc:oracle:thin:@localhost:1521/freepdb1",
+        "conn_name": "dbl_read@localhost",
+        "conn_password_encrypted": "8377AF09BF381EB1CA2496EFAED49F580E02CE6E98F81342F3E4FA7C2D09618D890A8DB665A32D1FD46A572923988767",
+        "conn_user_name": "dbl_read"
+      }
+    ],
+    "example_schemas": [],
+    "parameters": [],
+    "rules": [
+      {
+        "dbms_scopes": [
+          {
+            "dbms_name": "OracleDB",
+            "rdb_max_version": null,
+            "rdb_min_version": "7.3.4",
+            "tests": []
+          }
+        ],
+        "example_sets": [
+          {
+            "es_name": "HR",
+            "eset_name": "OracleDB",
+            "non_compliant_examples": [
+              {
+                "compliant_solutions": [
+                  {
+                    "sol_explanation": null,
+                    "sol_number": 1,
+                    "sol_source_code": "select emp.employee_id\r\n      ,emp.last_name\r\n      ,emp.first_name\r\n      ,dept.department_name\r\n  from employees emp\r\n      ,departments dept\r\n where emp.department_id = dept.department_id\r\n   and extract(month from emp.hire_date) = extract(month from sysdate);",
+                    "sol_stars": 5
+                  }
+                ],
+                "diagnostic_markers": [
+                  {
+                    "diag_end_col": 7,
+                    "diag_end_line": 6,
+                    "diag_message": "Use Oracle instead of ANSI SQL-92 join syntax.",
+                    "diag_start_col": 3,
+                    "diag_start_line": 6
+                  }
+                ],
+                "nc_explanation": null,
+                "nc_number": 1,
+                "nc_source_code": "select emp.employee_id\r\n      ,emp.last_name\r\n      ,emp.first_name\r\n      ,dept.department_name\r\n  from employees emp\r\n  join departments dept\r\n    on dept.department_id = emp.department_id\r\n where extract(month from emp.hire_date) = extract(month from sysdate);",
+                "result_rows": []
+              }
+            ],
+            "ten_name": "Core"
+          }
+        ],
+        "ifix_name": "Local-high",
+        "prof_name": "Strict",
+        "references": [],
+        "rule_check_is_free": true,
+        "rule_has_check": true,
+        "rule_has_quick_fix": false,
+        "rule_name": "R-3131",
+        "rule_parameters": [],
+        "rule_reason": "ANSI SQL-92 join syntax is not supported by all Oracle Database features. For example, SQL Assertions in Oracle AI Database 26ai require join conditions to be specified in the `WHERE` clause.\r\n\r\nANSI SQL-92 joins have also been associated with optimizer bugs in older Oracle Database releases. Avoiding them can therefore improve compatibility when code must support older database versions.",
+        "rule_title": "Never use ANSI SQL-92 join syntax.",
+        "sev_name": "Error",
+        "sevl_name": "Blocker",
+        "sqa_name": "Reliability",
+        "tags": [
+          {
+            "tag_name": "SQL",
+            "ten_name": "Core"
+          }
+        ]
+      }
+    ],
+    "subscriptions": [
+      {
+        "plan_name": "Professional",
+        "sub_number_of_configs": -1,
+        "sub_number_of_seats": 5,
+        "sub_valid_from": "2026-05-01T00:00:00",
+        "sub_valid_to": "2100-01-01T00:00:00"
+      },
+      {
+        "plan_name": "Essential",
+        "sub_number_of_configs": -1,
+        "sub_number_of_seats": 5,
+        "sub_valid_from": "2025-11-23T00:00:00",
+        "sub_valid_to": "2026-05-01T00:00:00"
+      }
+    ],
+    "tags": [],
+    "ten_is_core": false,
+    "ten_name": "Demo",
+    "ten_session_ttl": 1800,
+    "validators": []
+  }
+]

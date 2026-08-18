@@ -1,0 +1,1394 @@
+[
+  {
+    "configs": [
+      {
+        "conf_check_on_syntax_error": false,
+        "conf_description": "Default configuration",
+        "conf_exclude_file_patterns": "**/.git/**/*.*\r\n**/.vscode/**/*.*\r\n**/.scannerwork/**/*.*\r\n**/.dblinter/*.*\r\n**/check.vscode.md\r\n**/README.md",
+        "conf_include_file_patterns": "**/*.{sql,prc,fnc,pks,pkb,trg,vw,tps,tpb,plb,pls,rcv,spc,typ,aqt,aqp,ctx,dbl,tab,dim,snp,con,collt,seq,syn,grt,sp,spb,sps,pck,sqlnb,apx,md}",
+        "conf_name": "Default",
+        "config_rules": [
+          {
+            "rule_name": "G-3115",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4230",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7250",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1270",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4270",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2230",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-5010",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7430",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-5050",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7420",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9213",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1050",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9040",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9212",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1230",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7810",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1220",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3185",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4220",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2310",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9206",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9211",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9102",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4140",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7230",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1120",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7180",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7110",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1030",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7730",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9202",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9203",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1940",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-5080",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2180",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3145",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3320",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1140",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9104",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4395",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9201",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9106",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7720",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9501",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3192",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4380",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7710",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3330",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3130",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7910",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-6020",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1110",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7160",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7127",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4250",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2340",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7120",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4320",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1240",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9101",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9105",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1070",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3140",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9604",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1920",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2510",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2150",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-5020",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9605",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2610",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2220",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1310",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9112",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7320",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3160",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3190",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3195",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-5030",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9204",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7440",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7450",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7220",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9603",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2140",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4350",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4130",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7740",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3150",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4330",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-8120",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3183",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9208",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2210",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1260",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9109",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4360",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1080",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9103",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4260",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9108",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1210",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1130",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9209",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4110",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9110",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4120",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2170",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9207",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7210",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9111",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7130",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4385",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7515",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9116",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4387",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2330",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2135",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9601",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4390",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-5060",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9115",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7310",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2190",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9107",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9218",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9602",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3220",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9114",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3110",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9219",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7140",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-8110",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9214",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1010",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7170",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9205",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4325",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9210",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4370",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2160",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9215",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4240",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9216",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-8510",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1930",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1040",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2410",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-5040",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9217",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4340",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1280",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4375",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1060",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7520",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9020",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1250",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1020",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3120",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3310",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-6010",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9113",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7125",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7410",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9030",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-2145",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3170",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7330",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-8410",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7150",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4210",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-4365",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-7510",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-9600",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3180",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3182",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-3210",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "R-3131",
+            "ten_name": "Demo"
+          },
+          {
+            "rule_name": "R-0770",
+            "ten_name": "Demo"
+          },
+          {
+            "rule_name": "R-9010",
+            "ten_name": "Demo"
+          },
+          {
+            "rule_name": "R-3194",
+            "ten_name": "Demo"
+          },
+          {
+            "rule_name": "R-4310",
+            "ten_name": "Demo"
+          },
+          {
+            "rule_name": "R-5070",
+            "ten_name": "Demo"
+          },
+          {
+            "rule_name": "R-2320",
+            "ten_name": "Demo"
+          }
+        ],
+        "conn_name": "dbl_read@localhost",
+        "custom_parameters": [],
+        "ignore_test_results": []
+      },
+      {
+        "conf_check_on_syntax_error": false,
+        "conf_description": "Default configuration",
+        "conf_exclude_file_patterns": "**/.git/**/*.*\r\n**/.vscode/**/*.*\r\n**/.scannerwork/**/*.*\r\n**/.dblinter/*.*\r\n**/check.vscode.md\r\n**/README.md",
+        "conf_include_file_patterns": "**/*.{sql,prc,fnc,pks,pkb,trg,vw,tps,tpb,plb,pls,rcv,spc,typ,aqt,aqp,ctx,dbl,tab,dim,snp,con,collt,seq,syn,grt,sp,spb,sps,pck,sqlnb,apx,md}",
+        "conf_name": "Minimal",
+        "config_rules": [
+          {
+            "rule_name": "G-1310",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "G-1210",
+            "ten_name": "Core"
+          }
+        ],
+        "conn_name": "dbl_read@localhost",
+        "custom_parameters": [],
+        "ignore_test_results": []
+      },
+      {
+        "conf_check_on_syntax_error": false,
+        "conf_description": "For the demos of the talk \"Fighting Bad PL/SQL & SQL with Custom Rules\".",
+        "conf_exclude_file_patterns": "**/.git/**/*.*\n**/.vscode/**/*.*\n**/.scannerwork/**/*.*",
+        "conf_include_file_patterns": "**/*.{sql,prc,fnc,pks,pkb,trg,vw,tps,tpb,plb,pls,rcv,spc,typ,aqt,aqp,ctx,dbl,tab,dim,snp,con,collt,seq,syn,grt,sp,spb,sps,pck,sqlnb,apx,md}",
+        "conf_name": "Demo",
+        "config_rules": [
+          {
+            "rule_name": "R-3131",
+            "ten_name": "Demo"
+          },
+          {
+            "rule_name": "G-3130",
+            "ten_name": "Core"
+          },
+          {
+            "rule_name": "R-3194",
+            "ten_name": "Demo"
+          }
+        ],
+        "custom_parameters": [],
+        "ignore_test_results": []
+      }
+    ],
+    "connect_infos": [
+      {
+        "conn_jdbc_url": "jdbc:oracle:thin:@localhost:1521/freepdb1",
+        "conn_name": "dbl_read@localhost",
+        "conn_password_encrypted": "8377AF09BF381EB1CA2496EFAED49F580E02CE6E98F81342F3E4FA7C2D09618D890A8DB665A32D1FD46A572923988767",
+        "conn_user_name": "dbl_read"
+      }
+    ],
+    "example_schemas": [],
+    "parameters": [],
+    "rules": [
+      {
+        "dbms_scopes": [
+          {
+            "dbms_name": "OracleDB",
+            "rdb_max_version": null,
+            "rdb_min_version": "7.3.4",
+            "tests": []
+          }
+        ],
+        "example_sets": [
+          {
+            "es_name": "HR",
+            "eset_name": "OracleDB",
+            "non_compliant_examples": [
+              {
+                "compliant_solutions": [
+                  {
+                    "sol_explanation": null,
+                    "sol_number": 1,
+                    "sol_source_code": "select emp.employee_id\r\n      ,emp.last_name\r\n      ,emp.first_name\r\n      ,dept.department_name\r\n  from employees emp\r\n      ,departments dept\r\n where emp.department_id = dept.department_id\r\n   and extract(month from emp.hire_date) = extract(month from sysdate);",
+                    "sol_stars": 5
+                  }
+                ],
+                "diagnostic_markers": [
+                  {
+                    "diag_end_col": 7,
+                    "diag_end_line": 6,
+                    "diag_message": "Use Oracle instead of ANSI SQL-92 join syntax.",
+                    "diag_start_col": 3,
+                    "diag_start_line": 6
+                  }
+                ],
+                "nc_explanation": null,
+                "nc_number": 1,
+                "nc_source_code": "select emp.employee_id\r\n      ,emp.last_name\r\n      ,emp.first_name\r\n      ,dept.department_name\r\n  from employees emp\r\n  join departments dept\r\n    on dept.department_id = emp.department_id\r\n where extract(month from emp.hire_date) = extract(month from sysdate);",
+                "result_rows": []
+              }
+            ],
+            "ten_name": "Core"
+          }
+        ],
+        "ifix_name": "Local-high",
+        "prof_name": "Strict",
+        "references": [],
+        "rule_check_is_free": true,
+        "rule_has_check": true,
+        "rule_has_quick_fix": false,
+        "rule_name": "R-3131",
+        "rule_parameters": [],
+        "rule_reason": "ANSI SQL-92 join syntax is not supported by all Oracle Database features. For example, SQL Assertions in Oracle AI Database 26ai require join conditions to be specified in the `WHERE` clause.\r\n\r\nANSI SQL-92 joins have also been associated with optimizer bugs in older Oracle Database releases. Avoiding them can therefore improve compatibility when code must support older database versions.",
+        "rule_title": "Never use ANSI SQL-92 join syntax.",
+        "sev_name": "Error",
+        "sevl_name": "Blocker",
+        "sqa_name": "Reliability",
+        "tags": [
+          {
+            "tag_name": "SQL",
+            "ten_name": "Core"
+          }
+        ]
+      },
+      {
+        "dbms_scopes": [
+          {
+            "dbms_name": "OracleDB",
+            "rdb_max_version": null,
+            "rdb_min_version": "7.3.4",
+            "tests": []
+          }
+        ],
+        "example_sets": [
+          {
+            "eset_name": "OracleDB",
+            "non_compliant_examples": [
+              {
+                "compliant_solutions": [
+                  {
+                    "sol_explanation": null,
+                    "sol_number": 2,
+                    "sol_source_code": "create or replace package body my_package is\n   procedure password_check(in_password in varchar2) is\n      co_password     constant dba_users.password%type := in_password;\n      co_digitpattern constant varchar2(10 char)       := '\\d';\n      co_errno        constant simple_integer          := -20501;\n      co_errmsg       constant varchar2(100 char)      := 'Password must contain a digit.';\n   begin\n      if not regexp_like(co_password,co_digitpattern) then\n         raise_application_error(co_errno,co_errmsg);\n      end if;\n   end password_check;\nend my_package;\n/",
+                    "sol_stars": 5
+                  },
+                  {
+                    "sol_explanation": null,
+                    "sol_number": 1,
+                    "sol_source_code": "create or replace package body my_package is\n   procedure password_check(in_password in varchar2) is\n      co_password    constant dba_users.password%type := in_password;\n      co_digitarray  constant varchar2(10 char)       := '0123456789';\n      co_lower_bound constant simple_integer          := 1;\n      co_errno       constant simple_integer          := -20501;\n      co_errmsg      constant varchar2(100 char)      := 'Password must contain a digit.';\n      l_isdigit      boolean                          := false;\n      l_len_pw       pls_integer;\n      l_len_array    pls_integer;\n   begin\n      l_len_pw    := length(co_password);\n      l_len_array := length(co_digitarray);\n\n      <<check_digit>>\n      for i in co_lower_bound..l_len_array\n      loop\n         <<check_pw_char>>\n         for j in co_lower_bound..l_len_pw\n         loop\n            if substr(co_password,j,1) = substr(co_digitarray,i,1) then\n               l_isdigit := true;\n            end if;\n         end loop check_pw_char;\n      end loop check_digit;\n\n      <<check_other_things>>\n      null;\n\n      if not l_isdigit then\n         raise_application_error(co_errno,co_errmsg);\n      end if;\n   end password_check;\nend my_package;\n/",
+                    "sol_stars": 3
+                  }
+                ],
+                "diagnostic_markers": [
+                  {
+                    "diag_end_col": 20,
+                    "diag_end_line": 23,
+                    "diag_message": "Using GOTO.",
+                    "diag_start_col": 16,
+                    "diag_start_line": 23
+                  }
+                ],
+                "nc_explanation": null,
+                "nc_number": 1,
+                "nc_source_code": "create or replace package body my_package is\n   procedure password_check(in_password in varchar2) is\n      co_password    constant dba_users.password%type := in_password;\n      co_digitarray  constant varchar2(10 char)       := '0123456789';\n      co_lower_bound constant simple_integer          := 1;\n      co_errno       constant simple_integer          := -20501;\n      co_errmsg      constant varchar2(100 char)      := 'Password must contain a digit.';\n      l_isdigit      boolean                          := false;\n      l_len_pw       pls_integer;\n      l_len_array    pls_integer;\n   begin\n      l_len_pw    := length(co_password);\n      l_len_array := length(co_digitarray);\n\n      <<check_digit>>\n      for i in co_lower_bound..l_len_array\n      loop\n         <<check_pw_char>>\n         for j in co_lower_bound..l_len_pw\n         loop\n            if substr(co_password,j,1) = substr(co_digitarray,i,1) then\n               l_isdigit := true;\n               goto check_other_things;\n            end if;\n         end loop check_pw_char;\n      end loop check_digit;\n\n      <<check_other_things>>\n      null;\n\n      if not l_isdigit then\n         raise_application_error(co_errno,co_errmsg);\n      end if;\n   end password_check;\nend my_package;\n/",
+                "result_rows": []
+              }
+            ]
+          }
+        ],
+        "ifix_name": "Local-high",
+        "prof_name": "Balanced",
+        "references": [
+          {
+            "lt_name": "same as",
+            "ref_explanation": null,
+            "ref_name": "plsql:PlSql.Goto\n",
+            "ref_url": "https://sonarcloud.io/organizations/grisselbav/rules?languages=plsql&open=plsql%3APlSql.Goto\n&q=plsql%3APlSql.Goto\n"
+          },
+          {
+            "lt_name": "same as",
+            "ref_explanation": null,
+            "ref_name": "Trivadis G-4310",
+            "ref_url": "https://trivadis.github.io/plsql-and-sql-coding-guidelines/v4.4/4-language-usage/4-control-structures/3-flow-control/g-4310"
+          }
+        ],
+        "rule_check_is_free": true,
+        "rule_has_check": true,
+        "rule_has_quick_fix": false,
+        "rule_name": "R-4310",
+        "rule_parameters": [],
+        "rule_reason": ">Code containing gotos is hard to format. Indentation should be used to show logical structure, and gotos have an effect on logical structure. Using indentation to show the logical structure of a goto and its target, however, is difficult or impossible. (...)\n\n>Use of gotos is a matter of religion. My dogma is that in modern languages, you can easily replace nine out of ten gotos with equivalent sequential constructs. In these simple cases, you should replace gotos out of habit. In the hard cases, you can still exorcise the goto in nine out of ten cases: You can break the code into smaller routines, use try-finally, use nested ifs, test and retest a status variable, or restructure a conditional. Eliminating the goto is harder in these cases, but it’s good mental exercise (...).\n\n>-- McConnell, Steve C. (2004). _Code Complete. Second Edition_. Microsoft Press.",
+        "rule_title": "Never use GOTO statements in your code.",
+        "sev_name": "Warning",
+        "sevl_name": "Major",
+        "sqa_name": "Maintainability",
+        "tags": [
+          {
+            "tag_name": "Control",
+            "ten_name": "Core"
+          }
+        ]
+      },
+      {
+        "dbms_scopes": [
+          {
+            "dbms_name": "OracleDB",
+            "rdb_max_version": null,
+            "rdb_min_version": "7.3.4",
+            "tests": []
+          }
+        ],
+        "example_sets": [
+          {
+            "eset_name": "OracleDB",
+            "non_compliant_examples": [
+              {
+                "compliant_solutions": [
+                  {
+                    "sol_explanation": null,
+                    "sol_number": 1,
+                    "sol_source_code": "create or replace package types_up is\n   subtype description_type is varchar2(200 char);\nend types_up;\n/",
+                    "sol_stars": 5
+                  }
+                ],
+                "diagnostic_markers": [
+                  {
+                    "diag_end_col": 39,
+                    "diag_end_line": 2,
+                    "diag_message": "Use VARHCHAR2 instead of VARCHAR data type.",
+                    "diag_start_col": 32,
+                    "diag_start_line": 2
+                  }
+                ],
+                "nc_explanation": null,
+                "nc_number": 1,
+                "nc_source_code": "create or replace package types_up is\r\n   subtype description_type is varchar(200);\r\nend types_up;\r\n/",
+                "result_rows": []
+              }
+            ]
+          }
+        ],
+        "ifix_name": "Local-easy",
+        "prof_name": "Essential",
+        "references": [
+          {
+            "lt_name": "same as",
+            "ref_explanation": null,
+            "ref_name": "Trivadis G-2320",
+            "ref_url": "https://trivadis.github.io/plsql-and-sql-coding-guidelines/v4.4/4-language-usage/2-variables-and-types/3-character-data-types/g-2320"
+          },
+          {
+            "lt_name": "same as",
+            "ref_explanation": null,
+            "ref_name": "plsql:VarcharUsageCheck",
+            "ref_url": "https://sonarcloud.io/organizations/grisselbav/rules?languages=plsql&open=plsql%3AVarcharUsageCheck&q=plsql%3AVarcharUsageCheck"
+          }
+        ],
+        "rule_check_is_free": true,
+        "rule_has_check": true,
+        "rule_has_quick_fix": true,
+        "rule_name": "R-2320",
+        "rule_parameters": [
+          {
+            "param_name": "DisableAllQuickFix",
+            "ten_name": "Core"
+          }
+        ],
+        "rule_reason": "Do not use the `varchar` data type. Use the `varchar2` data type instead. Although the `varchar` data type is currently synonymous with `varchar2`, the `varchar` data type is scheduled to be redefined as a separate data type used for variable-length character strings compared with different comparison semantics.",
+        "rule_title": "Never use VARCHAR data type.",
+        "sev_name": "Error",
+        "sevl_name": "Blocker",
+        "sqa_name": "Maintainability",
+        "tags": [
+          {
+            "tag_name": "Variable",
+            "ten_name": "Core"
+          }
+        ]
+      },
+      {
+        "dbms_scopes": [
+          {
+            "dbms_name": "OracleDB",
+            "rdb_max_version": null,
+            "rdb_min_version": "7.3.4",
+            "tests": []
+          }
+        ],
+        "example_sets": [
+          {
+            "eset_name": "OracleDB",
+            "non_compliant_examples": [
+              {
+                "compliant_solutions": [
+                  {
+                    "sol_explanation": null,
+                    "sol_number": 1,
+                    "sol_source_code": "declare\n   e_my_exception exception;\nbegin\n   raise e_my_exception;\nend;\n/",
+                    "sol_stars": 5
+                  }
+                ],
+                "diagnostic_markers": [
+                  {
+                    "diag_end_col": 23,
+                    "diag_end_line": 2,
+                    "diag_message": "Raising Oracle predefined exception no_data_found.",
+                    "diag_start_col": 10,
+                    "diag_start_line": 2
+                  }
+                ],
+                "nc_explanation": null,
+                "nc_number": 1,
+                "nc_source_code": "begin\n   raise no_data_found;\nend;\n/",
+                "result_rows": []
+              }
+            ]
+          }
+        ],
+        "ifix_name": "Local-medium",
+        "prof_name": "Essential",
+        "references": [
+          {
+            "lt_name": "same as",
+            "ref_explanation": null,
+            "ref_name": "plsqlopen:AvoidUsingOraclePredefinedExceRaiseStandardExceptionptionsCheck",
+            "ref_url": "https://zpa.felipebz.com/docs/rules/RaiseStandardException/"
+          },
+          {
+            "lt_name": "same as",
+            "ref_explanation": null,
+            "ref_name": "Trivadis G-5070",
+            "ref_url": "https://trivadis.github.io/plsql-and-sql-coding-guidelines/v4.4/4-language-usage/5-exception-handling/g-5070"
+          }
+        ],
+        "rule_check_is_free": true,
+        "rule_has_check": true,
+        "rule_has_quick_fix": false,
+        "rule_name": "R-5070",
+        "rule_parameters": [
+          {
+            "param_name": "PredefinedExceptionNames",
+            "ten_name": "Core"
+          }
+        ],
+        "rule_reason": "You have raised an exception whose name was defined by Oracle. While it is possible that you have a good reason for \"using\" one of Oracle's predefined exceptions, you should make sure that you would not be better off declaring your own exception and raising that instead.\r\n\r\nIf you decide to change the exception you are using, you should apply the same consideration to your own exceptions. Specifically, do not \"re-use\" exceptions. You should define a separate exception for each error condition, rather than use the same exception for different circumstances.\r\n\r\nBeing as specific as possible with the errors raised will allow developers to check for, and handle, the different kinds of errors the code might produce.",
+        "rule_title": "Avoid using Oracle predefined exceptions.",
+        "sev_name": "Error",
+        "sevl_name": "Blocker",
+        "sqa_name": "Reliability",
+        "tags": [
+          {
+            "tag_name": "Exception",
+            "ten_name": "Core"
+          }
+        ]
+      },
+      {
+        "dbms_scopes": [
+          {
+            "dbms_name": "OracleDB",
+            "rdb_max_version": null,
+            "rdb_min_version": "7.3.4",
+            "tests": []
+          }
+        ],
+        "example_sets": [
+          {
+            "eset_name": "OracleDB",
+            "non_compliant_examples": [
+              {
+                "compliant_solutions": [
+                  {
+                    "sol_explanation": null,
+                    "sol_number": 1,
+                    "sol_source_code": "create or replace package body employee_api is\n   procedure set_dob(\n      in_employee_id in employees.employee_id%type\n     ,in_dob_str     in varchar2\n   ) is\n      co_employee_id constant employees.employee_id%type := in_employee_id;\n      co_dob_str     constant type_up.date_string        := in_dob_str;\n   begin\n      update employees\n         set date_of_birth = to_date(\n                co_dob_str default null on conversion error\n               ,'FXYYYY-MM-DD'\n             )\n       where employee_id = co_employee_id;\n   end set_dob;\nend employee_api;\n/",
+                    "sol_stars": 5
+                  }
+                ],
+                "diagnostic_markers": [
+                  {
+                    "diag_end_col": 37,
+                    "diag_end_line": 10,
+                    "diag_message": "Missing format model in to_date call.",
+                    "diag_start_col": 30,
+                    "diag_start_line": 10
+                  }
+                ],
+                "nc_explanation": null,
+                "nc_number": 1,
+                "nc_source_code": "create or replace package body employee_api is\n   procedure set_dob(\n      in_employee_id in employees.employee_id%type\n     ,in_dob_str     in varchar2\n   ) is\n      co_employee_id constant employees.employee_id%type := in_employee_id;\n      co_dob_str     constant type_up.date_string        := in_dob_str;\n   begin\n      update employees\n         set date_of_birth = to_date(co_dob_str default null on conversion error)\n       where employee_id = co_employee_id;\n   end set_dob;\nend employee_api;\n/",
+                "result_rows": []
+              }
+            ]
+          }
+        ],
+        "ifix_name": "Local-medium",
+        "prof_name": "Essential",
+        "references": [
+          {
+            "lt_name": "same as",
+            "ref_explanation": null,
+            "ref_name": "plsql:S4575",
+            "ref_url": "https://sonarcloud.io/organizations/grisselbav/rules?languages=plsql&open=plsql%3AS4575&q=plsql%3AS4575"
+          },
+          {
+            "lt_name": "similar to",
+            "ref_explanation": "The scope of TO_TIMESTAMPWithoutDateFormat is TO_TIMESTAMP only.",
+            "ref_name": "PMD TO_TIMESTAMPWithoutDateFormat",
+            "ref_url": "https://docs.pmd-code.org/latest/pmd_rules_plsql_errorprone.html#to_timestampwithoutdateformat"
+          },
+          {
+            "lt_name": "same as",
+            "ref_explanation": null,
+            "ref_name": "Trivadis G-9010",
+            "ref_url": "https://trivadis.github.io/plsql-and-sql-coding-guidelines/v4.4/4-language-usage/9-function-usage/g-9010"
+          },
+          {
+            "lt_name": "similar to",
+            "ref_explanation": "The scope of TO_DATEWithoutDateFormat is TO_DATE only.",
+            "ref_name": "PMD TO_DATEWithoutDateFormat",
+            "ref_url": "https://docs.pmd-code.org/latest/pmd_rules_plsql_errorprone.html#to_datewithoutdateformat"
+          },
+          {
+            "lt_name": "similar to",
+            "ref_explanation": "The scope of plsqlopen:ToDateWithoutFormat is TO_DATE only.",
+            "ref_name": "plsqlopen:ToDateWithoutFormat",
+            "ref_url": "https://zpa.felipebz.com/docs/rules/ToDateWithoutFormat/"
+          }
+        ],
+        "rule_check_is_free": true,
+        "rule_has_check": true,
+        "rule_has_quick_fix": true,
+        "rule_name": "R-9010",
+        "rule_parameters": [],
+        "rule_reason": "Converting from strings to `date` or `timestamp` datatypes (using `to_date`, `to_timestamp`, `to_timestamp_tz` or `cast` to any of those datatypes) in practice always expects a fixed format (unlike converting *to* strings that can be fixed as well as allow the session to decide). Therefore it is a bad idea to allow this conversion to rely on the session NLS settings (`nls_date_format`, `nls_timestamp_format` and `nls_timestamp_tz_format`) as this makes the code vulnerable to changes in session and/or server configuration. It is even possible to utilize session `nls_date_format` for SQL injection if you use dynamic SQL.\r\n\r\nUsing an explicit format model for string to `date` or `timestamp` conversion avoids this inappropriate dependability on configurable NLS parameters.",
+        "rule_title": "Always use a format model in string to date/time conversion functions.",
+        "sev_name": "Error",
+        "sevl_name": "Blocker",
+        "sqa_name": "Security",
+        "tags": [
+          {
+            "tag_name": "Function Usage",
+            "ten_name": "Core"
+          }
+        ]
+      },
+      {
+        "dbms_scopes": [
+          {
+            "dbms_name": "OracleDB",
+            "rdb_max_version": null,
+            "rdb_min_version": "23.26.2",
+            "tests": []
+          }
+        ],
+        "example_sets": [
+          {
+            "es_name": "HR",
+            "eset_name": "OracleDB",
+            "non_compliant_examples": [
+              {
+                "compliant_solutions": [
+                  {
+                    "sol_explanation": "`OUTER JOIN` makes it clear that employees without a manager are preserved and that `mgr.employee_id` can be null, explaining the null check in the `WHERE` clause.",
+                    "sol_number": 1,
+                    "sol_source_code": "select e.first_name || ' ' || e.last_name as employee_full_name\r\n      ,e.salary\r\n      ,d.department_name\r\n      ,j.job_title\r\n      ,mgr.first_name || ' ' || mgr.last_name as manager_full_name\r\n      ,mgr.salary as manager_salary\r\n  from employees e\r\n  join to one (\r\n          inner join departments d\r\n          inner join jobs j\r\n          outer join employees mgr on e.manager_id = mgr.employee_id\r\n       )\r\n where e.salary > mgr.salary\r\n    or mgr.employee_id is null;",
+                    "sol_stars": 5
+                  }
+                ],
+                "diagnostic_markers": [
+                  {
+                    "diag_end_col": 22,
+                    "diag_end_line": 9,
+                    "diag_message": "Specify an OUTER or INNER JOIN clause for departments.",
+                    "diag_start_col": 11,
+                    "diag_start_line": 9
+                  },
+                  {
+                    "diag_end_col": 15,
+                    "diag_end_line": 10,
+                    "diag_message": "Specify an OUTER or INNER JOIN clause for jobs.",
+                    "diag_start_col": 11,
+                    "diag_start_line": 10
+                  },
+                  {
+                    "diag_end_col": 20,
+                    "diag_end_line": 11,
+                    "diag_message": "Specify an OUTER or INNER JOIN clause for employees.",
+                    "diag_start_col": 11,
+                    "diag_start_line": 11
+                  }
+                ],
+                "nc_explanation": "The join type for `mgr` is implicit. Readers may incorrectly assume an inner join and overlook that `mgr` columns can be null.",
+                "nc_number": 1,
+                "nc_source_code": "select e.first_name || ' ' || e.last_name as employee_full_name\r\n      ,e.salary\r\n      ,d.department_name\r\n      ,j.job_title\r\n      ,mgr.first_name || ' ' || mgr.last_name as manager_full_name\r\n      ,mgr.salary as manager_salary\r\n  from employees e\r\n  join to one (\r\n          departments d\r\n         ,jobs j\r\n         ,employees mgr on e.manager_id = mgr.employee_id\r\n       )\r\n where e.salary > mgr.salary\r\n    or mgr.employee_id is null;",
+                "result_rows": []
+              }
+            ],
+            "ten_name": "Core"
+          }
+        ],
+        "ifix_name": "Local-easy",
+        "prof_name": "Strict",
+        "references": [
+          {
+            "lt_name": "related to",
+            "ref_explanation": "Step 3 explains the need for the INNER JOIN specification.",
+            "ref_name": "Using JOIN TO ONE",
+            "ref_url": "https://docs.oracle.com/en/database/oracle/oracle-database/26/adfns/building-queries-correct-joins-more-easily.html#GUID-FEB8218C-8FD5-47BC-BB14-4E43DDD32F35"
+          }
+        ],
+        "rule_check_is_free": true,
+        "rule_has_check": true,
+        "rule_has_quick_fix": true,
+        "rule_name": "R-3194",
+        "rule_parameters": [],
+        "rule_reason": "Every join inside a `JOIN TO ONE` clause should explicitly specify either `INNER JOIN` or `OUTER JOIN`. When the join type is omitted, `JOIN TO ONE` defaults to an outer join, which differs from the common expectation that an unqualified ANSI JOIN represents an inner join. This difference can easily be overlooked and is especially important because an outer join preserves unmatched rows and produces null values for columns from the joined table. \r\n\r\nMaking the join type explicit communicates the intended semantics and highlights where downstream null handling may be required.",
+        "rule_title": "Always specify INNER or OUTER within JOIN TO ONE.",
+        "sev_name": "Warning",
+        "sevl_name": "Major",
+        "sqa_name": "Maintainability",
+        "tags": []
+      },
+      {
+        "dbms_scopes": [
+          {
+            "dbms_name": "OracleDB",
+            "rdb_max_version": null,
+            "rdb_min_version": "7.3.4",
+            "tests": [
+              {
+                "test_name": "A-0770",
+                "test_sql_query": "select workspace || '.' || alias as identifier,\r\n       'App ' || alias || ' in ' || workspace || ' allows insecure content in frames.' as message,\r\n       null as migration\r\n  from apex_applications\r\n where browser_frame = 'Allow'\r\n   and workspace in (#ApexWorkspaces#)\r\n order by workspace, alias"
+              }
+            ]
+          }
+        ],
+        "example_sets": [
+          {
+            "eset_name": "APEX",
+            "non_compliant_examples": [
+              {
+                "compliant_solutions": [
+                  {
+                    "sol_explanation": "This is the default value. The property will be removed after an export.",
+                    "sol_number": 2,
+                    "sol_source_code": "app demo (\r\n    security {\r\n        embedInFrames: deny\r\n    }\r\n)",
+                    "sol_stars": 5
+                  },
+                  {
+                    "sol_explanation": null,
+                    "sol_number": 1,
+                    "sol_source_code": "app demo (\r\n    security {\r\n        embedInFrames: allowSameOrigin\r\n    }\r\n)",
+                    "sol_stars": 4
+                  }
+                ],
+                "diagnostic_markers": [
+                  {
+                    "diag_end_col": 29,
+                    "diag_end_line": 3,
+                    "diag_message": "Displaying content in frames is insecure.",
+                    "diag_start_col": 24,
+                    "diag_start_line": 3
+                  }
+                ],
+                "nc_explanation": null,
+                "nc_number": 1,
+                "nc_source_code": "app DEMO (\r\n    security {\r\n        embedInFrames: allow\r\n    }\r\n)",
+                "result_rows": [
+                  {
+                    "res_identifier": "WORKSPACE.DEMO",
+                    "res_message": "App DEMO in WORKSPACE is allows insecure content in frames.",
+                    "res_migration": null,
+                    "test_name": "A-0770"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "ifix_name": "Local-easy",
+        "prof_name": "Essential",
+        "references": [
+          {
+            "lt_name": "related to",
+            "ref_explanation": null,
+            "ref_name": "A05_2021-Security_Misconfiguration",
+            "ref_url": "https://owasp.org/Top10/2021/A05_2021-Security_Misconfiguration/"
+          },
+          {
+            "lt_name": "same as",
+            "ref_explanation": null,
+            "ref_name": "SERT-EMBED_IN_FRAMES",
+            "ref_url": "https://github.com/oracle-samples/apex-sert"
+          }
+        ],
+        "rule_check_is_free": true,
+        "rule_has_check": true,
+        "rule_has_quick_fix": true,
+        "rule_name": "R-0770",
+        "rule_parameters": [
+          {
+            "param_name": "ApexWorkspaces",
+            "ten_name": "Core"
+          }
+        ],
+        "rule_reason": "The property `embedInFrames` dictates whether a browser is allowed to display your application pages within an HTML frame, and if so, under what circumstances.\r\n\r\nApplications that allow frame embedding are potentially at risk of \"clickjacking\" attacks. This is where an attacker uses multiple page layers to intercept clicks that were meant for buttons or links in the application, instead routing them to another page.\r\n\r\n| Option | Description |\r\n| -- | -- |\r\n|  `deny` | The page is not allowed to be rendered within a frame, regardless of the site attempting to do so. This is the default. |\r\n|  `allow` | The page can be displayed in any frame, regardless of origin. |\r\n|  `allowSameOrigin` | The page can be displayed within a frame, but only if the frame is from the same origin as the page. |\r\n\r\nNOTE: This feature requires modern browsers that support the HTTP header response variable `X-Frame-Options`.\r\n\r\n### How to Fix\r\n\r\nTo set the value of Embed in Frames:\r\n\r\n- Edit your application's **Shared Components**.\r\n- In the **Security** region, click on **Security Attributes**.\r\n- In the **Browser Security** region, set the value of **Embed in Frames** to **`Deny`** or **`Allow from Same Origin`**.\r\n- Click **Apply Changes**.",
+        "rule_title": "Never allow application pages within an HTML frame.",
+        "sev_name": "Error",
+        "sevl_name": "Blocker",
+        "sqa_name": "Security",
+        "tags": [
+          {
+            "tag_name": "All APEX versions",
+            "ten_name": "Core"
+          },
+          {
+            "tag_name": "APEX_APPLICATIONS",
+            "ten_name": "Core"
+          }
+        ]
+      }
+    ],
+    "subscriptions": [
+      {
+        "plan_name": "Essential",
+        "sub_number_of_configs": -1,
+        "sub_number_of_seats": 5,
+        "sub_valid_from": "2025-11-23T00:00:00",
+        "sub_valid_to": "2026-05-01T00:00:00"
+      },
+      {
+        "plan_name": "Professional",
+        "sub_number_of_configs": -1,
+        "sub_number_of_seats": 5,
+        "sub_valid_from": "2026-05-01T00:00:00",
+        "sub_valid_to": "2100-01-01T00:00:00"
+      }
+    ],
+    "tags": [],
+    "ten_is_core": false,
+    "ten_name": "Demo",
+    "ten_session_ttl": 1800,
+    "validators": [
+      {
+        "val_content": "504B03040A00000800008568115D000000000000000000000000090000004D4554412D494E462F504B03041400000808008568115D34ECAA805600000063000000140000004D4554412D494E462F4D414E49464553542E4D46F34DCCCB4C4B2D2ED10D4B2D2ACECCCFB35230D433E0E5722E4A4D2C494DD175AAB452F04D2C4BCD53F0720C5208C8294DCFCC5330D63305A9F14A2C4B44D266CECBE5549A9993A2EB9592AD1B5C909A0C11E3E50200504B03040A00000800008468115D00000000000000000000000004000000636F6D2F504B03040A00000800008468115D0000000000000000000000000F000000636F6D2F6772697373656C6261762F504B03040A00000800008468115D00000000000000000000000014000000636F6D2F6772697373656C6261762F64656D6F2F504B03040A00000800008468115D0000000000000000000000001E000000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F504B03040A00000800008568115D0000000000000000000000000F0000004D4554412D494E462F6D6176656E2F504B03040A00000800008568115D0000000000000000000000001E0000004D4554412D494E462F6D6176656E2F636F6D2E6772697373656C6261762F504B03040A00000800008568115D0000000000000000000000002F0000004D4554412D494E462F6D6176656E2F636F6D2E6772697373656C6261762F637573746F6D2D76616C696461746F722F504B03041400000808008468115DD57795DBC0080000A81600002D000000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F44656D6F52333139342E636C617373BD588B7F145715FE6EB2D9D96C06485310025BD896549684B0BCA42521288440164202491AA495EA6477924C323BB3CCCC62A8B5B5525BAD5A7C5B5169AD0F7C4B15370D687D57ADF5FDACEFB7FE0DEAAFF5BBB39B10924DBA046B7EBFCCBD73E79C73CFFDCEF3EE53CF5E7802400BFE194619CA150454542028B02569A7E3838EE1BABAD9AF1D8FA7FA4DC3F274277E5C338D94E6D94EBC5F73F5F8CE7ED773B4A4D73AA427470482DB0DCBF0760894C7D6F65522844A0561155550056E4A0EC50DD7D4AC947BCCA46C2D9DD69C78C25FE939661ED41C5777EAF679F63EDBB03A0CD76BB5B9E3A827B06038BFD8ABF59BBA2B50DD31AC1DD7E259CF30E392B0B90A0BB14841B58A6B5023B0F0F2CF0201D7B843F7954A84A9D462154BF02281AA82DC9E8C9E14688EADEDB81215255741C5662975998A5A2CA776942AB7DDAD9B46DA2066023B6389D2655FC63BB1412522B84EC14A15AB1015D87E35C2042A5C4F7338463A6C6730AE599E49C36E893B59CB33D27ABCD71ED12D827A03562BA85371A30475F9ECA402CAA0EEF59EC8E80AD608AC9E5BB90E7D5477A4C5D6AAA84703CD426681251223DF70A41B8C77F50FEB49AF5941A3407BA9A7F51DE4B0E10D75653CC3B634B3CB6A35B5ACAB174E1EC63AC4556CC046819AE1027DDB68C6D15D97F402BBAEC007A6315F7285CDD8A2E0252AB6E226811D57278ECEECC90FDDFA80EEE856925EBCA3541D7B2F63BCA4DF3634296856B11D2D026BA607BA9EB6A704F96EBE766FDEB86D8B40484BA512AE9BA50A5BA50ACF9B20D2764A37E37E66F0F9B8F54BF132053B55EC42ABC0A62B17412D5CDDEBA683703A182B0987EEAC3979F879AADD863D0AF6AA684742A069FEE01702C59F2D8E4D75F71ECF31ACC1E61A26E3FD2A3A704060695A1B918C49CD932ECD19A3D6F298FF5E1C9BC959449884BB4BC5411C120813B603F42C4D02D75E947F1EC884D04307DD994A45BB6EE96DEB8EEEEB4A7486700B138C9D25AB74B5C32A5E8E230CEFA4A36B9E7E286B2447F618A37B6C47E6508191D28C58A42E34276645C14FFD03592B29B340BC279BC99886EEF880DCA6E21538CADC4F6F9E504660A00822738ABA759E78BDB28057A2B373122F8D781996A53B95C42BA92225AB65557292CDAD013594C9F2480DABF490F40F43E0E659757E1EBF50C04ADD58AAFA7EB085318CB46C0D68B18658F1AA5124DAFA245F46F21D1358350B5FBEDAE4695D159E2C362AC3A447D6A80EC3F2373FAEE2D5F243D5C48756DB94EB2754DC21D7C35C6FB35213E477AA78AD5CAECC2F1788EF969ABC8E41184BF04FEED886D7AB38897B69151998521382A46B69817AC667517D5BED74DAB6A6D0FA95F23E15F7CB1D174CC84958297D348C37E101056F96C67B0B03B7348112ABC42CBBE7D1AA4139F62B3825B0B9643BEA19534BEA69DD62197C106F9758BC436077AC6447F63DA1988BF5C96AFE2E15EFC67B04CAEC0181BAD8CC52BE767AD7C6BEAC9582051649B37566D3FDBAE3A74D16E70E3BA9997D9A63C8F7C262C01B3298FD6646DE2C258B1B5CEB47D1419399855EE3F9A717D83FFF9C53E410A18902CDB6EC6A0AB38060540B5698F2A4C79CB46DDE4AD20B79DAE4C8012D5380AEB2C718B4342FEB707ECFFFEEF4DBE793047750BFDAEEBC3BF719AE4105775A964DF330C3D2BEEB4B10EADF3D7C991416F4744B93760D48D37370B2F2CCC1EEC67CE3C2E4CA50A4A186E51D825DAAF4AF195E2C70FEFF578AB6CF1BC829614C2425962B4D2DDD9FD2EA8A16D8BA0D02B7BF60E72A444085936FC8E257984AC8498634EB5FD81F0B7DDD8289802ABC2F722E9D59F64E0A2EC85BD634C528A4C7CE3A497D8F21ADBF70320DAC979464D865DB9EBCAC660EE8DE909D721705F19530BE8AAF29F8BA2CA9DF60DABA24D4B08E33D31664E7BBB03DBCE7DACE098187A666B702615E683B01E515B5AEC3B647B29922B9723646E99645C86F9B358D4E15D1AA99660F2F78EC2FBE25B04E5E4C8D811351CD2AB465B633A5DF8826FD1B517480AB623D41F87618DFC177153CA5E27B785AE08619F23B7C07A3A2DAC0040455E9A96F4FBFF08094FE31BFE5DCBC7381588D1F4CEFCE0BD013AC1FC99EF6C72A1EC3E7ABF1532692D88C7808E1E7CC35222AB34D5484F04BD6C4A8604F93903D1EEFA38C0E57C1AFE96EA58425F79819980A7E77853FA84CF9B5E292C4CB1697CEFA73C1EA12AED6CCE9735C6297142D790AFE2A7063499EA3E0EFCC74739332E5E789713D8D5406F91760EB5C81209FEFE55B9CA3E058513F06F11827657888CFA0BFB804EFE353CD13E034DECF51E003F8207B2D320B857401AE9D2C6F89349C87328E05028FC2899C46B821876B9F44247206471B2281540E4BCF63C538AE17B8A6FCD4236897F49171C4CA986FD6E5B03E874D9DF539DCDC98C30EFEEFBE807D400E9D35DDF50D919ADE1CFA0239DC5A73BB7C7B15DFCAF976F8DE3271F6B9FBEBCFA3FF1CD528F7555F8F2A3E9761116AD9842EC766ACC05E4498CEAEE3C56F25FAB10A1944314A9ABBB0DA3F623D8FB1171B71060F534A19EEC423F8908FD7C9C2B1E5EC517C98C7FF08E70B51F11F9489A5CBFE8DDDFF22341FF581FB18CE72AC26CDC7F9F609179FC4A75C7C9A73DEF7F894781FA27C09596543A4F10274E0DC34CCD74C2A44A2C9CD2B0B9BCBD9670AAA55E2B3F81CC5E5373F571D96219837AB7029AD92EB67888DB2621ACCEBF2F80E024D152B4EA3FA22868F348EC16C0A9C8556BF62C2584D41F9A1363806BB4999A409F98B4A0E8E7C646B43398CCAC76BC67057538092EFA90D8EE30D82B67BA36FEEC0C3506B2B2EE0AD72BB8B78F0486DA0B6620C6F7B1CEF9C6EB41816F3E45134A00E8D34C706B4F0D98E4DE8A6196D6CC17DD88A53746589D100C2E42BC717709E68B590E68BE40D927E2F37E7B9B9D28231CE4212091F41F83389A0F06712C132EEFA40C1F43603222F2F4AE7789C5F2B7C83AF46D9B3D8A8F076A460FC391C45506142E39C4B0A8639F18F72D137C597F0658E2B29E4096EF34D3CC92FDFC70FF113FFFD67FEF317F815699A282E8467F01B1AEBB71C7F0FF9ABE633F803C7751CFFC87133C73F716CE3F8678E7FC1DFF00FD4FE17504B03041400000808008468115D1B79AE1412050000000D00002D000000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F44656D6F52303737302E636C617373AD566D73D346107E8E8428110AB8E62D81961A1A8A9D94880285822125380DA438BCD86928D0969EE58B7344968C740A495FA0EFE507F44BFF059D614C0766FA033AFD4D9DEEC9065C27A449C0E3D1E9F6EE76F7D97D6EB57FFDF3F84F00A771DFC4067418E8B4B0115D0C471DBF6A57021986C22DF179BB5C72A5A74460CF735796B9F203BBC443618F9642157047E5668533C7D0754A7A528D3074A433D3DDE866E815D592284F78E301AF8AB007263619B02CF46233C3489B155E130B2EF72A24E3D52A0FEC5112E449709907A108062E077E4D046A31E7932F0B8AA1D323AD0CD9FC1A155D104F75644D24F09A81A485ADD8C67062DD9A188C8A5053F1DBB674267F8BCF733B3E5A5481F42A646907761AE8B3D08F5D0C89F60D143E713BE26EC8B03DDD72FC52E996705436735D47EF750B6F600F6DAD512622C27E7AADD8A7F5B9E7E8531AFD5E8AE14BA8D1C8DEB230A003D84958AADD789B6123775DFF8E89343206062D0CE11D8603EDC41255BF855463342D1C3A7EFC1043372F9727C250633C46E1FC7F4256FDB270ED9889F13902370CDBC0210BEFE230C3E1B5AB202F42A10A849A5E6FA7D718EA42E43E0BF4BA0074E32843664C8635972F1243528ED6E6A994F45233F1854A49FA7BA170A2400C6BBCC72C1CC7FB0C26F93D29C2906BCFCFA797B2719D0E9D6448E566754052310153CA4FC5792E923B97025991DE70924ACA298BAA8A2E047427186EAE3574ED573DDBBC4F9192AE3D13798E92BE6717A35ACD952288337DC6C228CE326C22DE5C89A433372E1718669681BEA2AAEBEB0A4C0FB17CCCC2871827079C6772BACA89166B7919AAAC81F30C47566BA32028F78EA852D60D7CC47070D507758E4C4C20AF4BFA24C3503AEF07159B7BCAA5DD47ED20F294AC0A7B19AE52E9BEC4B0A52DAF26CEE18A565660185B92D0951DC92E43C0691353F8D8C0B485ABF8848ADEF340E57CD71571622882BD216D7785F23D1D3F8681E58A637B94A910E5C83CA1C84B4F5C8CE82B144CF1924B9264DE77B83BCD03A9E74D61A79A95646B69F25F509FC8406F9CE7A7446528BC5292375174388A587CE6653593B745C59DB9495E6B02EE29CA8AC715D50D86FBAFDCF353EBB94423E4667FA141CB69194AF273D4F37CC59B44185E85D2B82B897592B22E2A96C477CAAECE1B0D41A4A177150E363E313B5C5E2D95F9C07F1239400B66D18F02478C4BBD7DF3B3A40F6B9074A5CFFABED27D4F6D52A859BF1C6EE942CDC46D0406420B0A11C3BEE71495DEBC3F27EC7C6C8B4EF0196A98FC8018B3A9DA3AFBBB95D7CD430D03E7B95776453890F7FDB9A8B6CC5D7AD1C1A9C59A58DF62C3E4CA67334B577354338A52896C0277DADBA0E655A5602DEAA6E04B0B73B899C0D77423D3CB30DF9AF03C11E45C4ED90E0DDCA3FCAF8DA474F797348C666BBF66B5F630067E64D8BFAA0418F89961CFCA5B89658DCDD84B583740FF3AC074774DCF6B34B36964346E1C7C04F63BBD6CC0757A76C5C2ADB8414FABB1019FE2331A193EC74D52A20FFF8ACE58692E690C3D444F1D5BEAD8FE1B0ED364771D6FD6B12FB93F96A406EB38D0901E4C1EA9E3BDE489A1C7C8029D757C7075F021720F62CFB4E95D641CD4CAEDC54E64D047DFD47E9C24E908B59C37E295D864D31DFDF60538B9556A601B8113A32843D098A085199A5542CC4286B8953075BE9BE0CF122A8DADEF09CE5D7B82896BE4C9EE47B890BCF80897FF40F1415B3C76B5C4A32F36AB4DBAF1AE2ABCE69A4FB2792CE02B7C43927D14231377F12D7AC89BBBF88EC6148DDFD3F8037EC22FE8FF17504B03041400000808008468115D8B400867BB020000FE0500002D000000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F44656D6F52333133312E636C617373AD545D4F1341143D434BBF58100B5451D4AA28A548573E0411242135C66A456CB13E4FDBB10C6C67C3CC94E0A3FF481382890FFE007F94F1EE96102351B1711FE6CEDCD97BEE99736FEEB7EF5FBE02788C4729F4211247D4413F620C8B0DBFEDB6B4344678757EE036EB9E545668F7807BB2C9ADAFDD3A37C2DDA81BAB79C3167744638F21B62695B4EB0C91DC742D85049271A41C0CC06198FA1552B4FD9FE09ED0B1B230B730C790E0CD66C9988E6058CA4D97FF4EA5ED3785E7861CC2B8D5248670218E6107179166586EECB8D2785C35CDBE4758BCDDE6DA2D859EEABEB7C5B5117AF2B92F558D6BC9952DFA94E1D032F41BCB35D989B2AF5B2EDD789477D1D51D65655BB8DBFE9E50AB298C622C8E8C834BB8CC30FFEF84E9CD46D80A572DDA56727F4AD6931E095C6128BC3122FB8AAAE589AC54C60ADECCFAEFB21B9BD552B6FABA3CBB329FDD2509B2E6BDB2FCB010BC6AC2C1355C674811BB97C2181EF07B962BEFF203EE927A2DB76AB554ADDE5825A941B20E6EE216C340E3D46F1886BB193A567A6E591ABBCA102D5238C385B25462B3D3AE0BBDCDEB1E79D265BFC1BDB070743E7146ED8E249CB3B47ED37494602464B0E5518B542DB7A22D1415FE45AEDC63F39026671E1169D84386959E21199255D952DC76343DF2C3FFE3B6D64BFDD689CF78A5DB9D35692429BFA1944FE2495F91FA857380865324C424B098158A07AA4783C290D19DA098B1CA6C7730A4AA7E4737C4531978874E8B5708DEC2E0949412BAE8714A67E278C830791E79A883CE0A444D99A089187C7D60C14CA4F5369D5CB28C6C7FFE33D8A7F07A92D658E81CC61D5A9DEE0FB88B29B20C394C231206D7E8EF0034933F467CE60883C718498F1FE3EADBFC116E7C3C454B234AEB085118C520C668886542E44C37FA0439D8E5314319EE8591B328841C1891ECC37D8339CC1B2CD07E31BC7F8025B229BA1FC2325690FC01504B03041400000808008468115D39BA2668DB020000AC0600002D000000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F44656D6F52343331302E636C617373AD555D4F1341143D43A1A56541AC58445141510B4817A5A258FC201890A4F8D122BE3ADD4ECAC87636CCCC127DF60F69426AE2833FC01F65BCBB25F8855AD13ECC9DB9BBF79C33E7CE4E3F7DFEF011C01DDCCFA00B8914BA1DF420C950F482A6DBD0D218E1D7F8AE5BAFF95259A1DD5DEECB3AB781766BDC0877A966ACE69E5DDE12DE364372512A69EF3224F2939B19F4229D42C6411F1C862B3F428A66F00DDC035A568A73D766197A79BDBE664C2818E6F393E53F4B690675E1BBB186B8AE94C6008EA530E8E038B20C0BDE962B8DCF55DDECF884C59B4DAEDDB53853DDF19F706D849E580D6C50B5DC8AA6507639208E5796A1C758AE298E9603DD70B9B23E31175D1D2A2B9BC2DD08B6852A6530849329E41C0CE314C3F5BF974CBB36C256B86AD0B492FF1DD9911CE9C56986BE6746AAC6D8EAE38DC78548F2A883B338C79021EA75610C8FC81FE6CB2FF92E77C99C865BB59A2A8E4A39C690FB4A3956131E0F8D182B1462F60B0E2E62826184DAFDA0568EF1D61A2AD0E26928BDED15F98AE175BEDC49EF2AA12FF63B56FA4FEAD3747A2F3BB8823CF9E61DE40DC3609B21B4D277CBD2D81243F73295331CA34D884761B326F406AFF994C996038FFB9B5CCB68BD9FECB65B92707E96F58B2F8208B2B182EF4E28C37A67E61C7AB0C9949F7691F02C595EFA07508674553614B7A1A67DBEF99FFA168FD2C4BBA468A4D2FE7A36A59164FF92520171C940510B0A1D80C6F75C8C4960492B148FBCEF8EBA4341875147939599F6D595A906A1F6C48A8CB203071D2C447B6170D694127AD9E7446752A07B72A2138318860EB308E37444BB10FDBAC0A27B9BC6495AB91419C59EA9F760EFE2C7533426E3E420A66974DA2FE02A662892115494888B5F508C4047A75A484DEFA1BF8513D99116CE4C67CFB730FE7C6A0F97DE1E60E6080338414286D08F9334CBD115381C73E4DA38FB1CD16C16D788EB7A5C3D8762AC86E106ADE60D6EE296C102CD6FC7CF4B58A498A1E703F4FF740FE92F504B03041400000808008468115D78803ECDCF050000470E00002D000000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F44656D6F52353037302E636C617373B557E957135714FF3DB681302C222E6045549080CBB88B066D3184421B0226145CDADA97C9238C4C66E2CC04B1FB62F7DD6EF6BF68AD07AB3DA71FDB737AFA37F5F4BE49C04080226DF3E12D77DEDD7EF7DEF76EFEF8EBE1AF00CEE24E0065285750A1A212550CC7753BA3A51DC3758599E4B35A2A691A96271C6D969B468A7BB6A325B92BB4FEA4EB395CF7C2D3429F61A8EA332CC33BC7501EEC9EA841356A140454D44265E85A2E5264EC227103B48D9F387CEA30C3F6AC235262CAB0442A32A78BAC67D8568C6784CBB0397A8DCF722DE719A636C4DDE984F0420AEA193695D06BD0884D0A9A546C4633C3B17FF62863A784A9F9AE846D6BCA4833540FC712E3FDB17084E14474031242D5D84A0E8DADE250806CDCAEA205AD0C8D69E18D7187C824336AB81E434730EFAEC9ADB496F01CC34A87BA8B1090A742B578023B15B4A9D8857686FAA59F29261421C1330C3B82C5BC79AA944A53A889B2608F8ABDE860A8E4D9AC799361D792F353394B97766B83850529DE872E054115DDE861D8B68A6C4A860CCF32F406D794B6BA6D52CF01150771889CF1ECBC574DC1122002A8C36199BF47185A8A95856DD314052D1301CACA632A8ECB2CAF738B20776B7012A714F4AA388D330C67F469CD7009FA947BDDA4B8F34C863BDAB04F495C3789CF154E479C1BAE4878DC1319617914744FCC917975A238CE0CA1E8BAA45DC8512A4D192225B90AC2C8AF3E9C55704EC593788AE1F4862531289463E3FEAA7901BFE2DC0AE03CC20A065444A4A6C6E507186A097FFB8670C254FC12EFA7550C6198EA442715DCB0A844B71427ED68F21A211FEABE2C617F564514237498A752C3AE9B235C4E92198F55563E1F193A8A31051754C4916038FAF822C80A0A7E9C6CA4653AB8AEF0C473E6625036647613189E533181492A970C9F91D274EE4D1ADE34AD5C8F5B1E01B86FF5AA5F1AAC515C527119571802E4CB88705D2EBD195A917F03E6CA0BFC05152FE22A055E5FA493898DCB6B8FA1752C1E19880C0EC72203572317C391B1F1E1D1D8D558FF488402D4546A11D5C882CF13DC9401A94918698B7B3987D65DA5F77C5FA98C7324A5224C66333444E9768DE53249E18CF3A429A44E5BE7E604770CB92F102BBC6983EC2F856395C7489A49D5ADCF8CF06C4144403705A7022040E83DF261597A0930C4D6974F2B5F1EA5373CDDA0BA37C7D0F76FA432DCFA4FADEADB4846C980B5C473966764C484E11A0468BF65D9A48B6E4A8ACBA17508F5FB0E5F6648BE07C2E212F20A19329A9C9C8C5155FC60BE95A8EED3CD424B1248D839471783863C50BF18E143D22DCAE8F3B6EDC95E263B22BC693BE53654E1D5005EC3EB0ADE50F126DE62D8F328010D6BD69E115A946792294E1C7C8A9A20DBA157B33653BCFBB3B8160B4C79054384B929DC8EA86DCFE4B2A1D2E45E8D71FC66566CEC635EE5DABCDDA55FC3DC34138627428D7867D9EDB470BD97921A2AD1DF884942F1FD003EC0870A3E9217DFC7D4D49428C83B9CBF0B071790BBF3FF2357387E656D8796A3508D4F09055924C4DC3E4ADDAF29DA1F75ACED8B2F7F3BA386451DB62C7A2E4D4E19ED2AF882FC5F4F11D233BA4A67D1BCD2CBAEE06B86CE75E1A5E05B86B6B58F5201E50F63373D0165D41B96518FFA1238BD5F497FB70501D9D5D35EF7F7296ABB98FCEB40A3208A4633A3B9B2E73ED88FFE91291AAB7C6213D234AAF9039886417340766405E6095440FE0EDE85F23BBA7F41DDA5BB6868DA328F6D0FB083E121998507E82CA3613FC37D683F4179A4A41EE5346E2371DB7100ADB846BB72B003A8C1CCA28EDDBE76D2CF0ABCCCE70DF8DEB69101BB886222439CF2F86DA2CB2F677FC6D1FDF770E2371C21E3E46A1EA179F4CF63F07BB4F5CCE3993C2D56F8F410E3C03C2E4EF6DCC3F33FF8864CF90A141AF7D2AE039BD0899DD4E276A28BCC0DA2173D3E3E5BF30A0BF8C895059B8C2AB8D35B403E8BEB3437D2078776AE0B0F3917B314B71B8BCEEE5CD9D97C349A49DA9C2FEA265EF6A353865788F6366EE15DBC47673EC167446F25DA497C8E2F09C73E9A6FD3FC15BEC17768F91B504B03041400000808008468115D423F2C011C0C0000FB1E00002D000000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F44656D6F52393031302E636C617373B559097854D515FE6FB637993C200CC82E0C10C864214310510952629291682660660C10547C99BC2443DE2CBCF786CDDA45BB68F75585B6D6565BBAD82A48C362B576C3D6DADADAD5B676DFEDBE5B6ADBFFBE99244332899368E163EE7D7739E7DCB3FCE7DCCB63FF39FD30804B458D1B05285450A4A21825026B238998BFCF8C5A966E746B7BFD3DDD46346EEBA67FAF66447B343B61FABB354BF737765BB6A945ECA67E3D322050B2211A8FDA1B050A7D559DA570A154815B451954810B9E9F642CD1A31B7E87565322DE1BED1370B5B687C28DED4D2D0217B64D8142839B524C573103E50233FA74FB8A9EEE48588F250DCDD605EA7C556D09B3CF6F25CD68BCAFD7D462FABE8439E0DFCD55FE48C2D4FDD9EB1B4AE1C12C05B3559C87390295A305D263892C619AF9D971C9EAFAD5E4CC113D9030639A1D94220A78DA766B7B35BFA1C5FBFC215B726F70619E103669E911DB1BD3F6FB7AF40817FB929A948B07ADF556B6B785763537865B7605B674041BC395B55EF24BE955555ECDF2C60D6B9764B4ABD7E154EBF6A6FF4C402BDC1A6CA182835BC725684763BA656BB1E494A886BBF2206C1FCCD0767B7BCD44CC99B574CB8A26E2BB86495BEE7DFDBAA97B8707BCD1B8D7974321E39D6B5CC9AADC1E06C102150BB1883E1CD3921D897D0235CFEB1B5C16D49249DDA4972DC612055E154BB14CA03A7F9F1298BE27A59B07E81C5BBA77D3F2025B7C637D236F49AAB2F6A6093628A81098B53397C3AD1428086C77C3872A05D52A6A502B503E7AA1809B86326D6B5BD4EE17382F877C555D1E309C54F841779F1BD30674066044B3E516F6B83F6E5B022B73ED1D3B24036D8D8A0B6494CD1E7694AC00920B2E54B14E2E9833BC207C306B890B170BA881ED3BF8675530B8AAB9D985F5020BB247BC9B37AF59BB3ED8BA3E14AA0B045CD820B07464765978D9C8FCF64020DCB5797DB82BE8C646BC44C126158DB84CC01FE9F7472D4ADF63ED3108075A2CA699FE566724B4C7D8AA99966E76A40CA9105BDF4F032BC4A1B0D39BEDCB7178179A058AE229C3908609A8B8DCB18ABE27A519566B5F9C066F22F8BAD04AEB5556CA4557AA684390CE9B5E34CA46193F90362AC016155B7115219A4208047D8E67D138067174ADDF4CC5A536FDE1C4801E6F18D756293B6AF87B53F188CD18F58752C9A41175C2C083908AB04C21332CDDCEB286558A4E6C53B05DC50E74096CCC476B15810C8B96FD49330D08C34A2C8A330C9CAC900F21F6DAB93EB39B825E234D78AD4C4B93DFEEC22E1AD14E38602BCFA5A9E84684EA77C089EA2FCF52535BD4B21BCAA0A357419F8A7E4419F3E74E935AD46A8925ED034EEAEC92AB07A49D0C69C9D61C312D351D57914092A96418125BADF684DD4EC76106F7E5A5982CBF6C48F335555890FAB5A20775479C56C96CAF8A7DD8CF84ACF5F4B45A568A53EBE8BC934AC9CE3E8A7E10372878A98A1BF132813593274129E85C1D5407BB7D5338E854C476E115022B82DCC338F0A6F395D759251351C619BC11CD30EAE4096F5271335E259153B783745D4DCABA3927FA4D41180F0A41369D78AD8A5B706B1A52427682DEB03893B6C609690F8AE44E0FDEA0E28D12075C7B52D1C84020BA5F4AFD66156FC15B05CA68E5AB32E3027AAE8434110E4C51C16F275E5391C370EEC23B994B2750F9F0CAB4DE5DB89DB8933DCED2C2854302ABF221C2C5693A32B9BC4BC5BB6548974586252484DD89F72AB84BC5FBF07E81D5794107A1DA1E012D9D402670717EA03506F51AA404F7A8F8003E48C3D907927ABB0382EBF2A3D7ACD95A989B86A829F890C0867CB7EA525192843D42C28D8FE0A30AEE55F1317C5C16C4B968394EE2D0099BBA7E35BF98F8E8AF8D86E1906161B0A557CAE504484EDFB5B9718444765E6A3234CB3A272D3978EBC2FD13B84E8436A1E9BD3264FD92419D8263F4927CBDD6811E378EE2B8BC2F7D4260C98469B4AA53C18949DC803A749686113D46CD78489FE13A88D392D38302CDBEBC63CB9132570EEF74E3213CACE0532A1EC1A799624694D79430E4F5832EC72C364D2ACFD0ED443C9DA42A7215156333DD67F139059F5771068F323939D3D21D3A742B65D8215975943A68952E2D47E5B78C8C0C95261E82E1DC168DEBEDA958B76E86B56E439737A704A3B45333A3F23B335864F74729F158E019E74A460685148A29DB74C4E26143B6161960159DA158EC645581FA49A717827EC448583A67F4B8C0A2895C8302A49D934A0945FBE29A9D32C9FCB617B32CDB30CA441BF2F7A011476CD8C8BFACEC1D381C5B960974E49787C72FE9C6BA126D14B1997F36BD50CA02B7BCE8D2E5AFC5AC1C275538BF236DCCCEA815A5A735C6E309626A3AE2EAF220EA3CBC3834A5F7103EE9250C00E9DA6CCC9474DE928E55E9878752C75E3207A5A16392192B974DD64C9E8AC0C11781F794353ED3D062DD3D5AC550A553514F9F7A0111965144B199AE40FD93446481791981465D912A68B0EA0CC69E83980DAD5539AEEFBCFD99F499D9B93648604BEC236E0A085E13DD2DFB237AD27132057F1E427CB9257455DBF01C6B8A0D1123F384E70E255266440F44A53F4D1F06CE3AB993179CCB12095BBEFD2583BADD9FE8B16694E09F6E3C8B7F2938ABE2DF784E60D988C4D1F85EEAD5DFE61C9B3BB45E2D42B5F0BA5316CBFE7A3C3BC36436A5196CA69B18BA55D196480CA492390C34DE4659584C6D32CD72E2BD5563679B584286A2B6DE508EFF32238D63CFB199744689102CCC45818ADFE099723CC38162B728118A225C2AFCA29419780CB7F4E9D36F2D812135DEF1FF576366F9CE712B829C2A718932827A60BB2817D346BF7E8CA861865443B98A5FE097E5C2C38CEF1B5BDF89D9F4E2C69E9E736BBB4A5159E71273C8833D97984740ACF58A2ADE2B5AE371DD748A45DD52C442AA321F3C225A4FF00431FDDC67013A73167C29C2CBC27C6A753E216BCC982296CB77F929D4F92CA2C68CCC1DA7A05744256FB979398F22F5BA78E2A584A1F4622C857C7C02EFAD6EF978CE9E5B3EEF39ED3AA72D8590FFF9C0DF2FF0CBCF56B02DAE3E0171949D027C91BF25CEE03C3CC65F35BD005FC2E30E99F0D06631936C24B35B8F4119C4B433D08E61E6A3D8E9997B657AA4FA34E68355F5F98F60795BCD1934D614AEF1AC1844E52194B27B0465FC3D8D55C003985953343257E4CC150DCDD5D714AF79006B1DEA2ECF455C7C0CF5B27B09E78E61ADEC3670C151E7E4F200EB319DBF8B31034BA8919558414255A8430B4FAC6135FAA89518D6C2A456F6E322DC884B70331A78CBBFD439F41C1ECC83ABF16547672B7019BE820A1EFB09F9840DD77358AFC0A760F9E56C66C99F67E172BBDD544F02C98C6EB7918654DDB2EA3358523D884B3D4D8368398C594E7FF320AE380CA5E8088A0AEF1D963BADF84D598A5F86AFE26B6C9F708C50E0DDC46A433E2990B864B281ADB481ABBAE634DA81FB47D9B079F8385C8327F175C0E97D836302DF74567F8BBD6FE33B14415AF56914C9D562D34974D41CC7D58334E87514FC10AEE5E7F5A7D02370587865BFF0147617F072B3F1246287C4B4F4F41EA2C15DCCB08348A5B71FF0BC7C10AFA4F14EE3D540CD205EE3F45F079CC4EB07F1A66D47F0E410A3B78D6684136318E19E2C46B83D9BD13B1C46F5598CEACF65141D62749BC3A82B8B51FB58460DD98CEAB219DDE1305A9BC5686D36A3EAE3387CFFB051AFC35CFEB6F12B48A76A473DB66023B622402B5E890E3A4A08063A71037B87B11D47B003F7A10BC7B193A25C432BEDC2CF70BD288426CAD12DE62122CEA7D055D04503A22316169B32512A7B4FE1BB19872D43E1591867D17F167AC6E4DFC3F7D99673C1D3FCFA81851FE247167ECCEF9FE0A76947C04D19D7AAE7A1DFE3E863057B777B8E9CC487333A9B9DD1C9DD5227F75127A34EBE805E08C49DB058C8C0588E3DF031E86A91CAF2CBFA21A9D97B8A274D4B5D08519B91F6E7B9A52D77CBDC9589B66BE9B6856C173E88A33B88660F041FC4E08E5A46C549E0044E9DC4274762C3EDF06D6124051C39BCE9ADC3F1B130131FF289EA57F8350AC88AD54226E6FA6420B25D5EF2107C3B0AAB8B4EE1330508ED28AA2ECEF48AAB4BD2BD119673B809A864E8F948B40A8B50CDD8AECC52C372FC16BF73D82FC7EFF107B2FF23FB456CFFC45D7F19C6EC554E6003D3048190FFEA4506FA84C368BA7396F9DC48A0E2490AF1574788BFE1EF6CEB48E61F1CFB0F71BF5090388B217E0B554C17339DEF59CEEF79CEEF5C31DF0153059D628158447D5CC3F67CB677B25D8C52B184ED52B6CBD85670FC08DB15FC5E297CA21AF3FF07504B03041400000808008468115DCEC9544F0B050000070D00002D000000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F44656D6F52323332302E636C617373B5566B535347187E569003E1A8146F8097468D1AA0722A5E5A456D6328050D5E12C4AA6DEDE66449D69C4B3CBB41EDCD7EF70FF467D8990EB63AD38FFDD0E96FEAF4DD93A054024DA92633676FEFBE97E77DDEDDFDE3AFE7BF01388F1F12D8840E0B9D3636A38BE1A41BFA4E39924A09AFC8179D52D193811691B3C83D59E23A8C9C2257C2C914958EB8ABB315E15619BACEC940EA0B0C1DE9E1F904BAD1632161A3173643C6AD3852793C28A9FB1EE9E6BECF2367269E29DCF7AEF14889289509942CD46BB530D2A234C935D78F6A221B92ED879AA1E7F2DDF94C3E3B9DC9338CA4877361547678A03DF2EBA413D5032D7DE1E84808674E44BE0CB877252C898904B6629B853E1BEFA09FE1E8EBC1093F5C11D8240DF3E327C6DF67E8E6A5D28C5275C1709ACCFD3B283E99F39C188D78DF442F7660A7855D36766380E1487B1E53A465A10B8FFC62E831EC5F2BD2B9B02A028A6E087B2CECB5B10FFB19C6FFBB9714A8123ACF833275F3E9F58C6D08846E24295F37944836B3379E9481D2829792E1C2F25C9236F3A449F79889E8A08D43483124C8B359A11437BE4DA773F7F82277883365A7A023199437E69149CB111B479166B008EAB9985E3B08E855FAFBA940466C8CE23D86DD3EAF1A36BA5CDF94BA423DA5092845896DE9590B650C63361C10B93AC82E43319DFBDF85B16CA9AEA5E72CD40357CB30708CB42745141364DCC6099C64E825465FAF4BB73A251F322CB4F07A5D55B73784760FD5DF691B1FE04372C07D394FB0F5ADB096934A4F5838CB70A25D1B7951F3B82B7C11680BE7188EB5BDD1703D81095C3007DE470CA36BB07EF561323CDF8D0C55CC228FDC0A8FC6133883ACD132C930996E1B9ED8838916A4A173730A9F5A98B631834B0C3B5F21940D3D4FC41921E8B62812F7840E03031C436A652EAF16EF91E03F7811C3CBD0998DCF976D3919882B75BF28A2395EF468A63F17BADC9BE79134E3E664A7AE48B2B53AEB6B1C996460284E704BBA32DC78D36C6F46D5E16AA273F60D2827600B9ABBD5595E6B62D05390E580EB7A44FD276FC3FF731BA9A90BE4E960BEC1D279A924B99A0982902C35E831D686D2F80A8F7592B22E2D02A23FE5DC64939AA86EA2EFCA1F6BDC85873CEE174B3CB5767A5324952884F5C81553D2ECDDFA92176326622AF78B61A8CD8BA1362B74252CA96D5D2826E0A264419833768178FC8AC53258A44BA759198D63778A1E1B61F488E1C795746F0A36944E53263CA152B930ACD66B2D4A6CAD8D7314430BF13B6BD6D54A1559EE7905A9CD65576118689E4C49967C40174572F9B018A380EF25508567C1B71180803EB84A572E469A9CE20BCBE1F6FA2B477FBEFDE0DB5F6C985C7FEF7A80F5E1FEEB576F1366024B99B79BB6F105AEF761914EA9748BEAB767824044598F13D795050228D54E9532EC5DAF4E2D7CCB70B82D9C2D7C4FCFB4F545A9941AC23840216D82F975D07380DEDBF4BD4C23875A46EDE69167603F51671372F4ED8A27B76396BE7643005770955A866BB84E4ACCE627E88C959E1D5D82F53B8E8F2C618BE9FE8AED0C4B18EC7F7709071A1387199E6318187D8E6340E7128EDF1CF919A79EC60E198B436413D8058B1EAD36063048FF7D347B8ABEB3F14A6CA9E985E9E551206FE61A219DC28DD8F979DCA4B68F163EA3D12D85DBB8A3F0795FC264B319F3250AC68434F002676EBDC0C42DF2DB7A86F3FD1F3FC3C55FF0C9D397306C25D5C6B51EECA1C7DBD00A380662F3C6F497B1F45D7C456D3FF538AD972169A58608753C68CE77E321BE264DDFE03B3CC6E0DF504B0304140000080800B75C095DAAEA20340A040000FC120000360000004D4554412D494E462F6D6176656E2F636F6D2E6772697373656C6261762F637573746F6D2D76616C696461746F722F706F6D2E786D6CCD58DB6EDC36107DF757A8465F0A54D45E1CDB31540109D2A20D9CC6801D23409EB814ADE55A2B2AA4B4BB46907FEF909444DD570902377EDB9933239E3933D4C87E2AF88692CC396CE344FE71BACEB2F4CAF3B678471384534CD61471117937EFDF7967688666A7274EF9A743AE0E925561FBFD1EED973A60319BCDBD8FEFAE6F21C316BB2C91194E083D75007F25B5F19A139C319E4C78AA338438C8D0185D8D43F0FB34D047F4B73CA4F13D15121E1168AFEF356C2706F78BEB3A776BEABCC69211E9B86E119FE02D0DC2D5354B322A9C7B1CB310675CF89E76184C24789EFE1306846F51249894345EE19DEF957683C222630F98640A98CB8C6FDD9DCD56731AF4AE38DE5C1DD9BDFDF7D5CDEDDFEFEF7CAFB41B1494E011472C89820D862CF667E1163CA59099CAA012CC2FB446AB9CC521923C1784FE99101EAAB80F777FB99790680C63536DF00EA3EAA417BED730589C2AEE1B9AD224A40979720A80ADB20685AB5817D926442F955A1DBB0D6132C649283FC7956F8616672AA8EBB15138A507F0466E8A85ACE58558153AE4B609488CA58C044ED795F30C5DA2F9E5B9EFF5F86CA04C0514B0725C80B650EC96D5C2B9C024A6E1AA722D9668718E96A68B3BDE9AC45C6691A075FA670B7481E64B90B6EBAB099A272CABECE7688E16206AC3D854F526CEA1DF06143523095391B2B856C8259ABFD063D8EF6EC7D3E48143FBD5E3A1066578C76B3ADF6BB7BE1F96FDD79C86CAFC648DD387DAF6949DDFB25FDD98ADBA835D4594E7FDF54BBBC1BFB6A6DCB60F014E0130DBB19086D038FAB7E5E2F59199C0708DAA7199C0AF869D40AE3388CFCEEE5BF56BCDFF24960377C67373651C452C5BE72B64AFA1098CEBE00964BB57DC73F384773E32B7E68380D7F09E8BC709344D84BB09576412CFE6BDFC7FF4ADB9E211EC0878852545E6E84789728553AFE30924DB6F912334332AB39F81624ED29F9E9EEA52FBB69D40AA0E9EC0ADFB267F6E766633D8E429CBD4457994A0C6BB157E02C7C6EEF163E8D52C7A15B0FBFF6BB5ED3AB734CB60EE6BDF007A0BAEAF717A1F7EC304ACC85C3CC13155EB864C7CF5A420B098B0446FC2709816B2B6A2E9C549B688186BD3581D8FF0E48145B9A0CE5B48EE948B5363E7EA95A9F852329F4DC58307D46A2BD6DCD15C133CAC5C4BBDFE0D6F48461D5C92D4DF845DBFC6081A5328B86A8FDAF706A42D1DFD61E5395E8948F6430AF651E07E542BD9559E40DDC8A3BAD595B53FAD379E57F90729C19EDAA3F8701BFC5055CBD5F9FB546D2FDEA3AAD20325B9A23F50780B1811868541F150D74C17EB39A72D15C7F188CC15A6CC09A553BF86137A47324E69DD0A2BF2981E399DC1D1CF39DC1E6AE0EF87AADB1B586AF1A93524BFFF36A253278BF7ADCF87887166A3E3604123FD5073B6AFCFCE349596F223D02BAEF2EA3F1CC1C97F504B03041400000808008568115D9341786F4A0000004A0000003D0000004D4554412D494E462F6D6176656E2F636F6D2E6772697373656C6261762F637573746F6D2D76616C696461746F722F706F6D2E70726F706572746965734B2C2AC94C4B4C2EF14CB14D2E2D2EC9CFD52D4BCCC94C492CC92FE24A2FCA2F2D0049E4E7EAA517651617A7E62425967195A5161567E6E7D91AEA19E819E806FB3906047BF887700100504B010214030A00000800008568115D000000000000000000000000090000000000000000001000ED41000000004D4554412D494E462F504B010214031400000808008568115D34ECAA805600000063000000140000000000000000000000A481270000004D4554412D494E462F4D414E49464553542E4D46504B010214030A00000800008468115D000000000000000000000000040000000000000000001000ED41AF000000636F6D2F504B010214030A00000800008468115D0000000000000000000000000F0000000000000000001000ED41D1000000636F6D2F6772697373656C6261762F504B010214030A00000800008468115D000000000000000000000000140000000000000000001000ED41FE000000636F6D2F6772697373656C6261762F64656D6F2F504B010214030A00000800008468115D0000000000000000000000001E0000000000000000001000ED4130010000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F504B010214030A00000800008568115D0000000000000000000000000F0000000000000000001000ED416C0100004D4554412D494E462F6D6176656E2F504B010214030A00000800008568115D0000000000000000000000001E0000000000000000001000ED41990100004D4554412D494E462F6D6176656E2F636F6D2E6772697373656C6261762F504B010214030A00000800008568115D0000000000000000000000002F0000000000000000001000ED41D50100004D4554412D494E462F6D6176656E2F636F6D2E6772697373656C6261762F637573746F6D2D76616C696461746F722F504B010214031400000808008468115DD57795DBC0080000A81600002D0000000000000000000000A48122020000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F44656D6F52333139342E636C617373504B010214031400000808008468115D1B79AE1412050000000D00002D0000000000000000000000A4812D0B0000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F44656D6F52303737302E636C617373504B010214031400000808008468115D8B400867BB020000FE0500002D0000000000000000000000A4818A100000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F44656D6F52333133312E636C617373504B010214031400000808008468115D39BA2668DB020000AC0600002D0000000000000000000000A48190130000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F44656D6F52343331302E636C617373504B010214031400000808008468115D78803ECDCF050000470E00002D0000000000000000000000A481B6160000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F44656D6F52353037302E636C617373504B010214031400000808008468115D423F2C011C0C0000FB1E00002D0000000000000000000000A481D01C0000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F44656D6F52393031302E636C617373504B010214031400000808008468115DCEC9544F0B050000070D00002D0000000000000000000000A48137290000636F6D2F6772697373656C6261762F64656D6F2F76616C696461746F722F44656D6F52323332302E636C617373504B01021403140000080800B75C095DAAEA20340A040000FC120000360000000000000000000000A4818D2E00004D4554412D494E462F6D6176656E2F636F6D2E6772697373656C6261762F637573746F6D2D76616C696461746F722F706F6D2E786D6C504B010214031400000808008568115D9341786F4A0000004A0000003D0000000000000000000000A481EB3200004D4554412D494E462F6D6176656E2F636F6D2E6772697373656C6261762F637573746F6D2D76616C696461746F722F706F6D2E70726F70657274696573504B05060000000012001200A8050000903300000000",
+        "val_content_md5": "7A38537767AB23997DB0A4D0E4E250D6",
+        "val_content_sha1": "1854F6E3672383DD4BAE31E5BB4CD95528815D2E",
+        "val_file_name": "custom-validator-1.0.0-SNAPSHOT.jar",
+        "val_parser_version": "0.24.0",
+        "val_url": null
+      }
+    ]
+  }
+]
