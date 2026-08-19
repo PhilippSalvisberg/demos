@@ -78,8 +78,7 @@
 
 ## 4. Publish Validator (1')
 
-- run `./mvnw clean package` via `README.md` to produce the JAR file
-- Run `../import-validator.sh` from the command line to publish the JAR file
+- run `./mvnw clean deploy` via `README.md` to produce the JAR file and publish the JAR file
 - open [Validators](https://dblinter.app/ords/r/dblinter/dblinter-console/tenant-validators) in the browser
 
 ## 5. Test in VS Code
@@ -119,8 +118,7 @@
 - Show quick fixes in debugger
 - Show result of `checkIssues.get(0).quickFixes.get(0).function.get()` in debugger
 - Explain delayed execution of a quickfix
-- Run `./mvnw clean package`
-- Run `../import-validator.sh`
+- Run `./mvnw clean deploy`
 
 ## 8. Test Quick Fixes in VS Code
 
