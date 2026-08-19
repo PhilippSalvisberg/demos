@@ -12,3 +12,10 @@ dblinter gen-java \
   --ruleFilter=.+ \
   --groupId=com.grisselbav \
   --packageName=com.grisselbav.demo.validator
+
+sed -i '' 's/DBLINTER_ACCESS_TOKEN/DBLINTER_DEMO_ACCESS_TOKEN/g' \
+  "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/pom.xml" \
+  "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/README.md"
+
+sed -i '' 's/<dblinter.version>1.10.0/<dblinter.version>1.9.0/g' \
+  "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/pom.xml"
