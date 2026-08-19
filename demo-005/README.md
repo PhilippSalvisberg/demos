@@ -9,7 +9,9 @@
   - `DBLINTER_DEMO_CONN_PASSWORD`
 - Run `./import-tenant.sh setup` to load the demo tenant config with the R-3131 rule without validator
 - Run `rm -rf ./dbLinter-Demo-Custom-Validator`
-- Run `./clear-cache` to clear the global IntelliJ cache for this project
+- Run `./clear-cache.sh` to clear the global IntelliJ cache for this project
+- Run `./idea.sh` opens IntelliJ and clears more cached values
+- Exit IntelliJ
 - Open VS Code
   - File -> Open Folder...
   - Select this folder as workspace
