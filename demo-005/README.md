@@ -43,7 +43,7 @@
   - No validators yet
   - We are going to create one and upload it
 
-## 2. Generate Java Validator Project (1')
+### 2. Generate Java Validator Project (1')
 
 - Show content of [gen-java.sh](gen-java.sh)
 - Run `./gen-java.sh` in terminal
@@ -51,7 +51,7 @@
 - Run `./idea.sh` to start the IDE
 - Click on `reload all projects` in Sync tab within `sync finished` item to reload Maven project
 
-## 3. Run Tests (2')
+### 3. Run Tests (2')
 
 - Scroll through the automatically opened README.md file
 - Run `./mvnw clean package` from the README.md and explain why it fails
@@ -62,7 +62,7 @@
 - Click on failed `non_compliant_1()` test and navigate to failing line
 - Explain generated test and why it fails
 
-## 3. Implement the Check
+### 3. Implement the Check
 
 - Open `src`, `main` and then `DemoR3131`
 - Replace `FileContext` by `JoinVariantContext`
@@ -76,12 +76,12 @@
 - Copy the expected message from the text and paste it in the DemoR3131.java
 - Rurun all tests, they should all succeeed now
 
-## 4. Publish Validator (1')
+### 4. Publish Validator (1')
 
 - run `./mvnw clean deploy` via `README.md` to produce the JAR file and publish the JAR file
 - open [Validators](https://dblinter.app/ords/r/dblinter/dblinter-console/tenant-validators) in the browser
 
-## 5. Test in VS Code
+### 5. Test in VS Code
 
 - open VS Code
 - open [3131-non-compliant.sql](3131-non-compliant.sql), explain why no problems are shown
@@ -92,7 +92,7 @@
 - Open the [Core G-3130](https://dblinter.app/ords/r/dblinter/dblinter-console/rules#P1000_SHOW_RULE=Core%20G-3130) issue and remove it from the `Demo` configuration
 - Back in VS Code [reload window](command:workbench.action.reloadWindow) to apply the config change
 
-## 6. dbLinter Output Panel
+### 6. dbLinter Output Panel
 
 - Show [Show dbLinter output](command:dblinter.showOutput)
 - Search for `R-3131`
@@ -103,7 +103,7 @@
 - Close the [3131-non-compliant.sql](3131-non-compliant.sql) file without saving the changes
 - Reopen it and show that the dbLinter output shows now two invocations and two issues
 
-## 7. Implement Deterministc Quick Fixes
+### 7. Implement Deterministc Quick Fixes
 
 - Switch to IntelliJ
 - Open `Demo3131.java`
@@ -120,7 +120,7 @@
 - Explain delayed execution of a quickfix
 - Run `./mvnw clean deploy`
 
-## 8. Test Quick Fixes in VS Code
+### 8. Test Quick Fixes in VS Code
 
 - Switch to VS Code
 - open [3131-non-compliant.sql](3131-non-compliant.sql), explain why no problems are shown
