@@ -8,6 +8,7 @@
   - `DBLINTER_DEMO_ACCESS_TOKEN`
   - `DBLINTER_DEMO_CONN_PASSWORD`
 - Run `./setup.sh` to load the demo tenant config with the R-3131 rule without validator and remove java project
+- Open IslansSQL project in IntelliJ and make sure only `IslandSqlParser.g4` is open, then exit IntelliJ
 - Open VS Code
   - File -> Open Folder...
   - Select this folder as workspace
@@ -99,7 +100,7 @@
 - Explain check profile (method name represents the context for core rules)
 - Revert the changes in [3131-non-compliant.sql](3131-non-compliant.sql) via Git
 
-### 9. Implement Deterministc Quick Fixes (6', RT 20')
+### 9. Implement Deterministc Quick Fixes (5', RT 19')
 
 - Switch to IntelliJ
 - Open `Demo3131.java`
@@ -116,7 +117,7 @@
 - Explain delayed execution of a quickfix
 - Run `./mvnw clean deploy`
 
-### 10. Test Quick Fixes in VS Code (2' RT 22')
+### 10. Test Quick Fixes in VS Code (2' RT 21')
 
 - Switch to VS Code
 - open [3131-non-compliant.sql](3131-non-compliant.sql), explain why no problems are shown
@@ -131,6 +132,14 @@
   - Add ignore marker on line level
   - Move it to statement level
   - Move it to file level
+
+### 11. Show Parse Tree in ANTLR4 Plugin (Bonus)
+
+- Copy the current version of 3131-non-compliant.sql into clipboard
+- Switch to IntelliJ
+- Open IslandSQL project
+- Paste clipboard into ANTLR Preview
+- Explain
 
 ## Snippets
 
