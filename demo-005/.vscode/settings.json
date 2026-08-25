@@ -9,5 +9,6 @@
     "dblinter.connJdbcUrl": "jdbc:oracle:thin:@127.0.0.1:1521/freepdb1",
     "dblinter.connUserName": "dbl_read",
     "dblinter.connPassword": "${env:DBLINTER_DEMO_CONN_PASSWORD}",
-    "dblinter.enableRemoteDebugging": true
+    "dblinter.enableRemoteDebugging": true,
+    "dblinter.logLevel": "Trace"
 }
