@@ -12,12 +12,13 @@
 - Open VS Code
   - File -> Open Folder...
   - Select this folder as workspace
+- Enable IslandSQL extension
 - Open a terminal window at the root folder
 - Open [https://dblinter.app](https://dblinter.app) in the browser
   - Log in as `philipp.salvisberg+42@gmail.com`
   - Select tenant `Demo` if it is not activated by default
 
-## Demo (20')
+## Demo (21')
 
 ### 1. Show non-compliant Code (1', RT 1')
 
@@ -133,7 +134,16 @@
   - Move it to statement level
   - Move it to file level
 
-### 11. Show Parse Tree in ANTLR4 Plugin (Bonus)
+### 11. Show Parse Tree with IslandSQL for VS Code (Bonus #1)
+
+- open [3131-non-compliant.sql](3131-non-compliant.sql)
+- click on join, right-click `Source Action...` -> `Show parse-tree`
+- click on join, right-click `Source Action...` -> `Show parse-tree as Dot graph`
+- copy content into clipboard
+- open [Edotor](https://edotor.net/) and paste content
+- select Dot engine
+
+### 12. Show Parse Tree in ANTLR4 Plugin (Bonus #2)
 
 - Copy the current version of 3131-non-compliant.sql into clipboard
 - Switch to IntelliJ
