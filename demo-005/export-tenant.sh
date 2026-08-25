@@ -1,5 +1,8 @@
+#!/usr/bin/env bash
+set -e
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]:-$0}")" && pwd -P)"
 
+# export the current tenant configuration
 dblinter export-tenants \
   --repoUrl=https://api.dblinter.app \
   --tenantName=Demo \

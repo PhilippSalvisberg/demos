@@ -7,11 +7,7 @@
 - Define the following environment variables:
   - `DBLINTER_DEMO_ACCESS_TOKEN`
   - `DBLINTER_DEMO_CONN_PASSWORD`
-- Run `./import-tenant.sh setup` to load the demo tenant config with the R-3131 rule without validator
-- Run `rm -rf ./dbLinter-Demo-Custom-Validator`
-- Run `./clear-cache.sh` to clear the global IntelliJ cache for this project
-- Run `./idea.sh` opens IntelliJ and clears more cached values
-- Exit IntelliJ
+- Run `./setup.sh` to load the demo tenant config with the R-3131 rule without validator and remove java project
 - Open VS Code
   - File -> Open Folder...
   - Select this folder as workspace
@@ -47,9 +43,7 @@
 
 - Show content of [gen-java.sh](gen-java.sh)
 - Run `./gen-java.sh` in terminal
-- Show result folder `dbLinter-Demo-Custom-Validator`
-- Run `./idea.sh` to start the IDE
-- Click on `reload all projects` in Sync tab within `sync finished` item to reload Maven project
+- IntelliJ opens
 
 ### 3. Run Tests (2')
 
