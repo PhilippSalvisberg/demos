@@ -18,7 +18,12 @@
 
 ## Demo (20')
 
-### 1. Register Rule (2')
+### 1. Show non-compliant Code (1', RT 1')
+
+- open [3131-non-compliant.sql](3131-non-compliant.sql)
+- explain that no problems are shown, because the validator is not yet implemented
+
+### 2. Register Rule (2', RT 3')
 
 - Open Administration -> Rules
   - Explain that you maintain tenant-specific rules here
@@ -39,24 +44,22 @@
   - No validators yet
   - We are going to create one and upload it
 
-### 2. Generate Java Validator Project (1')
+### 3. Generate Java Validator Project (1', RT 4')
 
 - Show content of [gen-java.sh](gen-java.sh)
 - Run `./gen-java.sh` in terminal
 - IntelliJ opens
 
-### 3. Run Tests (2')
+### 4. Run Tests (2', RT 6')
 
 - Scroll through the automatically opened README.md file
 - Run `./mvnw clean package` from the README.md and explain why it fails
 - Run `./mvnw clean package -DskipTests=true` from the README.md to show that the build completes successfully without running tests
-- Open `src`, `test`, `java` and then `DemoR3131Test`
-- Click `Setup SDK` and select `graalvm-17` (or any other JDK 17+)
-- Run all tests in class
+- Open `src`, `test`, right-click on `java` and `Run 'All Tests'`
 - Click on failed `non_compliant_1()` test and navigate to failing line
 - Explain generated test and why it fails
 
-### 3. Implement the Check
+### 5. Implement the Check (3', RT 9')
 
 - Open `src`, `main` and then `DemoR3131`
 - Replace `FileContext` by `JoinVariantContext`
@@ -70,12 +73,12 @@
 - Copy the expected message from the text and paste it in the DemoR3131.java
 - Rurun all tests, they should all succeeed now
 
-### 4. Publish Validator (1')
+### 6. Publish Validator (1', RT 10')
 
 - run `./mvnw clean deploy` via `README.md` to produce the JAR file and publish the JAR file
 - open [Validators](https://dblinter.app/ords/r/dblinter/dblinter-console/tenant-validators) in the browser
 
-### 5. Test in VS Code
+### 7. Test in VS Code (3', RT 13')
 
 - open VS Code
 - open [3131-non-compliant.sql](3131-non-compliant.sql), explain why no problems are shown
@@ -86,7 +89,7 @@
 - Open the [Core G-3130](https://dblinter.app/ords/r/dblinter/dblinter-console/rules#P1000_SHOW_RULE=Core%20G-3130) issue and remove it from the `Demo` configuration
 - Back in VS Code [reload window](command:workbench.action.reloadWindow) to apply the config change
 
-### 6. dbLinter Output Panel
+### 8. dbLinter Output Panel (1', RT 14')
 
 - Show [Show dbLinter output](command:dblinter.showOutput)
 - Search for `R-3131`
@@ -94,14 +97,13 @@
 - Explain top-level parse metrics (chars, lines, lexer time, parser time)
 - Explain parser profile (rule names are contexts)
 - Explain check profile (method name represents the context for core rules)
-- Close the [3131-non-compliant.sql](3131-non-compliant.sql) file without saving the changes
-- Reopen it and show that the dbLinter output shows now two invocations and two issues
+- Revert the changes in [3131-non-compliant.sql](3131-non-compliant.sql) via Git
 
-### 7. Implement Deterministc Quick Fixes
+### 9. Implement Deterministc Quick Fixes (6', RT 20')
 
 - Switch to IntelliJ
 - Open `Demo3131.java`
-- Add `Convert ot Oracle join syntax` quick fix
+- Add `Convert to Oracle join syntax` quick fix
   - add `/* TODO: convert to Oracle Join */` after start token (pseudo fix)
   - enable `partOfFixAll` property
 - Add `.addDbLinterIgnoreQuickFix(ctx.start, "Keep ANSI SQL-92 join because ...")`
@@ -114,7 +116,7 @@
 - Explain delayed execution of a quickfix
 - Run `./mvnw clean deploy`
 
-### 8. Test Quick Fixes in VS Code
+### 10. Test Quick Fixes in VS Code (2' RT 22')
 
 - Switch to VS Code
 - open [3131-non-compliant.sql](3131-non-compliant.sql), explain why no problems are shown
