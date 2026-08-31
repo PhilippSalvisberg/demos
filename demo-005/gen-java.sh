@@ -29,7 +29,5 @@ sed -i '' 's/test-api.dblinter.com/api.dblinter.app/g' \
 sed -i '' 's/parserVersion=0.20.0/parserVersion=0.25.0/g' \
   "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/README.md"
 
-# IntelliJ IDEA 2026.1.5
-# older version due to ANTLR4 plugin compatiblity issues since 2026.2.0
-# see https://github.com/antlr/intellij-plugin-v4/issues/740
-idea1 "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator" &
+# IntelliJ IDEA 2026.2
+idea "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator" &
