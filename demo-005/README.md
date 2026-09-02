@@ -121,7 +121,7 @@
 ### 10. Test Quick Fixes in VS Code (2' RT 21')
 
 - Switch to VS Code
-- open [3131-non-compliant.sql](3131-non-compliant.sql), explain why no problems are shown
+- open [3131-non-compliant.sql](3131-non-compliant.sql), explain why no quick fixes are shown
 - Execute [reload window](command:workbench.action.reloadWindow) to apply the config change
 - Apply quick fixes and undo changes afterwards:
   - Convert to Oracle join syntax" for first issue
