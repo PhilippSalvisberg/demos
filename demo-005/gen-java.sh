@@ -4,7 +4,7 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]:-$0}")" && pwd -P)"
 
 # generate custom validator skeleton Java project
 dblinter gen-java \
-  --repoUrl=https://api.dblinter.app \
+  --repoUrl=http://127.0.0.1:8080 \
   --tenantName=Demo \
   --userName=philipp.salvisberg+42@gmail.com \
   --accessToken=$DBLINTER_DEMO_ACCESS_TOKEN \
@@ -21,9 +21,11 @@ sed -i '' 's/DBLINTER_ACCESS_TOKEN/DBLINTER_DEMO_ACCESS_TOKEN/g' \
   "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/pom.xml" \
   "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/README.md"
 
-# use production repoUrl
-sed -i '' 's/test-api.dblinter.com/api.dblinter.app/g' \
+# use local repoUrl
+sed -i '' 's/https:\/\/test-api.dblinter.com/http:\/\/localhost:8080/g' \
   "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/README.md"
+sed -i '' 's/https:\/\/api.dblinter.app/http:\/\/localhost:8080/g' \
+  "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/pom.xml"
 
 # override parser version to match behaviour with default settings
 sed -i '' 's/parserVersion=0.20.0/parserVersion=0.25.0/g' \
