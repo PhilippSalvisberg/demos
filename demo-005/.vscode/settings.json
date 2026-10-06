@@ -1,6 +1,6 @@
 {
     "java.compile.nullAnalysis.mode": "disabled",
-    "dblinter.repoUrl": "https://api.dblinter.app",
+    "dblinter.repoUrl": "http://127.0.0.1:8080",
     "dblinter.tenantName": "Demo",
     "dblinter.userName": "philipp.salvisberg+42@gmail.com",
     "dblinter.accessToken": "${env:DBLINTER_DEMO_ACCESS_TOKEN}",
