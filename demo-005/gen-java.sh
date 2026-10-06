@@ -21,15 +21,5 @@ sed -i '' 's/DBLINTER_ACCESS_TOKEN/DBLINTER_DEMO_ACCESS_TOKEN/g' \
   "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/pom.xml" \
   "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/README.md"
 
-# use local repoUrl
-sed -i '' 's/https:\/\/test-api.dblinter.com/http:\/\/localhost:8080/g' \
-  "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/README.md"
-sed -i '' 's/https:\/\/api.dblinter.app/http:\/\/localhost:8080/g' \
-  "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/pom.xml"
-
-# override parser version to match behaviour with default settings
-sed -i '' 's/parserVersion=0.20.0/parserVersion=0.25.0/g' \
-  "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/README.md"
-
 # IntelliJ IDEA 2026.2
 idea "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator" &
