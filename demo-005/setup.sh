@@ -19,5 +19,9 @@ if [ -d "$PROJECTS_DIR" ]; then
     -exec rm -rf -- {} +
 fi
 
-# remove the dbLinter-Demo-Custom-Validator project from the list clear all remaining caches
+# In IntelliJ IDEA run the following
+# - remove the dbLinter-Demo-Custom-Validator project (should be greyed out)
+# - File -> Invalidate Caches ... -> Invalidate and Restart
+# - after the restart open IslandSQL project and wait until "Analyzing project" completes
+# - close IntelliJ IDEA
 idea &
