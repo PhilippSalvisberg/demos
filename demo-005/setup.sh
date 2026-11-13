@@ -9,7 +9,7 @@ SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]:-$0}")" && pwd -P)"
 rm -rf "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator"
 
 # clear project caches for IntelliJ IDEA 2026.2
-PROJECTS_DIR="$HOME/Library/Caches/JetBrains/IntelliJIdea2026.2/projects"
+PROJECTS_DIR="$HOME/Library/Caches/JetBrains/IntelliJIdea2026.3/projects"
 if [ -d "$PROJECTS_DIR" ]; then
   find "$PROJECTS_DIR" \
     -maxdepth 1 \

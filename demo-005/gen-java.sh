@@ -21,5 +21,5 @@ sed -i '' 's/DBLINTER_ACCESS_TOKEN/DBLINTER_DEMO_ACCESS_TOKEN/g' \
   "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/pom.xml" \
   "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator/README.md"
 
-# IntelliJ IDEA 2026.2
+# IntelliJ IDEA 2026.3
 idea "$SCRIPT_DIR/dbLinter-Demo-Custom-Validator" &
