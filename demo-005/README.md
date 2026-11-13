@@ -14,7 +14,7 @@
   - Select this folder as workspace
 - Enable IslandSQL extension
 - Open a terminal window at the root folder
-- Open [https://dblinter.app](https://dblinter.app) in the browser
+- Open [http://127.0.0.1:8181/ords/r/dbl_gui/dblinter-console/](http://127.0.0.1:8181/ords/r/dbl_gui/dblinter-console/) in the browser
   - Log in as `philipp.salvisberg+42@gmail.com`
   - Select tenant `Demo` if it is not activated by default
 
