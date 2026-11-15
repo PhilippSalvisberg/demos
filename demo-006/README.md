@@ -7,11 +7,11 @@
 - Set [dbLinter maxLineSize](command:workbench.action.openSettings?%5B%22dblinter.formatter.maxLineSize%22%5D) to 128
 - Set dbLinter as default formatter for oracle-plsql, check [user settings](command:workbench.action.openSettingsJson) contains:
 
-   ```json
-   "[oracle-sql]": {
-        "editor.defaultFormatter": "Grisselbav.dblinter"
-    },
-   ```
+    ```json
+    "[oracle-sql]": {
+         "editor.defaultFormatter": "Grisselbav.dblinter"
+     },
+    ```
 
 ## Demo (5')
 
