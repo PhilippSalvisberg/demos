@@ -5,3 +5,4 @@
 3. [Demos for The Superpowers of the Oracle Database](demo-003/README.md)
 4. [Demos for JSON in the Oracle Database](demo-004/README.md)
 5. [Demos for Fighting Bad PL/SQL & SQL with Custom Rules](demo-005/README.md)
+6. [Demos for Formatter](demo-006/README.md)
