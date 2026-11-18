@@ -48,7 +48,10 @@
 
 #### 5. Skills (1')
 
-- open
+- [Open in Agents](command:workbench.action.openWorkspaceInAgentsWindow)
+- prompt "format ascii art with uppcase keywords"
+- prompt "good now for all files"
+- prompt "fine and now all files with leading commas and on keyword on new line"
 
 ## SQL in Markdown files
 
