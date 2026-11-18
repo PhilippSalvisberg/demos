@@ -42,7 +42,7 @@
 #### 4. CLI (1')
 
 - Open a terminal
-- Run `dblinter format`
+- Run `dblinter format 10*.sql *.md`
 - Show git diff
 - Explain change in Markdown file
 
