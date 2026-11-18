@@ -15,7 +15,11 @@
 
 ## Demo (5')
 
-### 1. Lightweight Formatter (2')
+### 1. Formatter options (1')
+
+- open [CLI Formatter Options](https://grisselbav.github.io/dbLinter/tools/cli/format/) and explain.
+
+### 2. Lightweight Formatter (1')
 
 - open [01-single-line.sql](01-single-line.sql)
 - explain calling the formatter now does nothing, because `preserveSingleLineStatement` is enabled
@@ -25,7 +29,7 @@
 - Add line break before second `select` and press Shift-Opt-F
 - Add line break before last `)` and press Shift-Opt-F
 
-### 2. ASCII Art and Partial Formatting (1' 30")
+### 3. ASCII Art and Partial Formatting (1')
 
 - open [10-ascii-art.sql](10-ascii-art.sql)
 - explain that this is not readable
@@ -35,12 +39,16 @@
 - extend the selection and press Cmd-K Cmd-F
 - repeat and explain functionality
 
-#### 3. CLI (1' 30")
+#### 4. CLI (1')
 
 - Open a terminal
 - Run `dblinter format`
 - Show git diff
 - Explain change in Markdown file
+
+#### 5. Skills (1')
+
+- open
 
 ## SQL in Markdown files
 
