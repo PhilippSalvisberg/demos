@@ -3,11 +3,11 @@
   "skills": {
     "dblinter": {
       "source": "Grisselbav/dbLinter",
-      "ref": "3249f658e285ae400a8fc09ff84830b67e977905",
-      "commit": "3249f658e285ae400a8fc09ff84830b67e977905",
+      "ref": "11b4dc30aeba1cfd7b1f4a24c0bad32a196c8e55",
+      "commit": "11b4dc30aeba1cfd7b1f4a24c0bad32a196c8e55",
       "sourceType": "github",
       "skillPath": "skills/dblinter/SKILL.md",
-      "computedHash": "1194ce7337b55cc9d5f02abaa1e6544c8ce167b1ebfb9f7d66d3b37a58720acd"
+      "computedHash": "dc44346173cf0e23a4ea165779d6ff9e3d792365b0ce9f9b5bdd59101ea5acbb"
     }
   }
 }
