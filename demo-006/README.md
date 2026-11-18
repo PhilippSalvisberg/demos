@@ -49,7 +49,7 @@
 #### 5. Skills (1')
 
 - [Open in Agents](command:workbench.action.openWorkspaceInAgentsWindow)
-- prompt "format ascii art with uppcase keywords"
+- prompt "format ascii art with uppercase keywords"
 - prompt "good now for all files in the workspace"
 - prompt "fine and now all files with leading commas and on keyword on new line"
 
