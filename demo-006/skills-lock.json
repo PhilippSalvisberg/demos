@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "skills": {
+    "dblinter": {
+      "source": "Grisselbav/dbLinter",
+      "ref": "3249f658e285ae400a8fc09ff84830b67e977905",
+      "commit": "3249f658e285ae400a8fc09ff84830b67e977905",
+      "sourceType": "github",
+      "skillPath": "skills/dblinter/SKILL.md",
+      "computedHash": "1194ce7337b55cc9d5f02abaa1e6544c8ce167b1ebfb9f7d66d3b37a58720acd"
+    }
+  }
+}
