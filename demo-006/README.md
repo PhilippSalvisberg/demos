@@ -17,7 +17,7 @@
 
 ### 1. Formatter options (1')
 
-- open [CLI Formatter Options](https://grisselbav.github.io/dbLinter/tools/cli/format/) and explain.
+- open dmlStyle in [CLI Formatter Options](https://grisselbav.github.io/dbLinter/tools/cli/format/#dmlstyle) and explain.
 
 ### 2. Lightweight Formatter (1')
 
